@@ -1,0 +1,155 @@
+92450317
+ OpenBabel06101807152D
+
+ 26 25  0  0  0  0  0  0  0  0999 V2000
+    8.0622    1.4400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5981   -0.5600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4641   -0.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320   -0.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660   -1.5600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3301   -0.5600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660   -0.5600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1962   -0.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000   -2.0600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1962    0.9400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1996   -1.0350    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9966   -1.0350    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8626    0.4149    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0656    0.4149    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320    0.5600    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0781   -2.1426    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4766   -1.4523    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3301   -1.1800    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3291   -0.2500    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7331   -0.3700    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6900   -1.5231    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4631   -2.3700    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3100   -2.5969    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9841    1.5226    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5856    0.8323    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0622    2.0600    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1 10  1  0  0  0  0
+  1 26  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2 11  1  0  0  0  0
+  2 12  1  0  0  0  0
+  3  6  1  0  0  0  0
+  3 13  1  0  0  0  0
+  3 14  1  0  0  0  0
+  4  7  2  0  0  0  0
+  4 15  1  0  0  0  0
+  5  7  1  0  0  0  0
+  5  9  1  0  0  0  0
+  5 16  1  0  0  0  0
+  5 17  1  0  0  0  0
+  6  8  2  0  0  0  0
+  6 18  1  0  0  0  0
+  7 19  1  0  0  0  0
+  8 10  1  0  0  0  0
+  8 20  1  0  0  0  0
+  9 21  1  0  0  0  0
+  9 22  1  0  0  0  0
+  9 23  1  0  0  0  0
+ 10 24  1  0  0  0  0
+ 10 25  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+92450317
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+103
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+1
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+1
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+5
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADceBwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAACAAACACggAICAAAAAgCAACBCAAAAAAAgAAAICAAAAAgAFAAAAQAAEAAAgAAIEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+(2Z,6Z)-nona-2,6-dien-1-ol
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+(2Z,6Z)-1-nona-2,6-dienol
+
+>  <PUBCHEM_IUPAC_NAME>
+(2Z,6Z)-nona-2,6-dien-1-ol
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+(2Z,6Z)-nona-2,6-dien-1-ol
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+(2Z,6Z)-nona-2,6-dien-1-ol
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C9H16O/c1-2-3-4-5-6-7-8-9-10/h3-4,7-8,10H,2,5-6,9H2,1H3/b4-3-,8-7-
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+AMXYRHBJZOVHOL-KPDBFRNYSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+2.1
+
+>  <PUBCHEM_EXACT_MASS>
+140.12
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C9H16O
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+140.226
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+CCC=CCCC=CCO
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+CC/C=C\CC/C=C\CO
+
+>  <PUBCHEM_CACTVS_TPSA>
+20.2
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+140.12
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+10
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+2
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+1
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+$$$$

@@ -1,0 +1,178 @@
+2723710
+ OpenBabel06101807152D
+
+ 38 30  0  0  0  0  0  0  0  0999 V2000
+    5.3429    5.0000    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2089    6.5000    0.0000 Na  0  3  0  0  0 15  0  0  0  0  0  0
+    3.8429    5.8660    0.0000 Na  0  3  0  0  0 15  0  0  0  0  0  0
+    4.4768    4.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6108    0.0000    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+    5.3429    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2089    5.5000    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+    4.8429    5.8660    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+    5.8429    4.1340    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7458    3.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6414    8.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5369    1.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5369    4.2500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5369    6.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7458    5.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4768    0.5000    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0
+    4.4768    3.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4768    1.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6108    3.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3429    3.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6108    2.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3429    2.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0739    3.3100    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8798    3.3100    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0739    1.6900    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8798    1.6900    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2828    3.3100    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2089    3.3100    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1783    8.8100    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1044    8.8100    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0739    2.0600    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    2.0600    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0739    4.5600    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    4.5600    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0739    7.0600    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    7.0600    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2828    5.8100    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2089    5.8100    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  4  1  0  0  0  0
+  1  7  1  0  0  0  0
+  1  8  1  0  0  0  0
+  1  9  2  0  0  0  0
+  4 17  1  0  0  0  0
+  5 16  1  0  0  0  0
+  6 16  2  0  0  0  0
+ 10 27  1  0  0  0  0
+ 10 28  1  0  0  0  0
+ 11 29  1  0  0  0  0
+ 11 30  1  0  0  0  0
+ 12 31  1  0  0  0  0
+ 12 32  1  0  0  0  0
+ 13 33  1  0  0  0  0
+ 13 34  1  0  0  0  0
+ 14 35  1  0  0  0  0
+ 14 36  1  0  0  0  0
+ 15 37  1  0  0  0  0
+ 15 38  1  0  0  0  0
+ 16 18  1  0  0  0  0
+ 17 19  2  0  0  0  0
+ 17 20  1  0  0  0  0
+ 18 21  2  0  0  0  0
+ 18 22  1  0  0  0  0
+ 19 21  1  0  0  0  0
+ 19 23  1  0  0  0  0
+ 20 22  2  0  0  0  0
+ 20 24  1  0  0  0  0
+ 21 25  1  0  0  0  0
+ 22 26  1  0  0  0  0
+M  CHG  6   2   1   3   1   5  -1   7  -1   8  -1  16   1
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+2723710
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+238
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+12
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+6
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+1
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADceBiPDIAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAABAAAAHgAECCAACAyBkAAwxoAQQRCBQCRCQ4CCAAAgIgAoiAAGbIoIJiKAkZOAMABkwBEIyAewQAAAAEAAAAAAAAAAgAAAAAAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+disodium;(4-nitrophenyl) phosphate;hexahydrate
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+disodium;(4-nitrophenyl) phosphate;hexahydrate
+
+>  <PUBCHEM_IUPAC_NAME>
+disodium;(4-nitrophenyl) phosphate;hexahydrate
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+disodium;(4-nitrophenyl) phosphate;hexahydrate
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+disodium;(4-nitrophenyl) phosphate;hexahydrate
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C6H6NO6P.2Na.6H2O/c8-7(9)5-1-3-6(4-2-5)13-14(10,11)12;;;;;;;;/h1-4H,(H2,10,11,12);;;6*1H2/q;2*+1;;;;;;/p-2
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+KAKKHKRHCKCAGH-UHFFFAOYSA-L
+
+>  <PUBCHEM_EXACT_MASS>
+371.021
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C6H16NNa2O12P
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+371.142
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+C1=CC(=CC=C1[N+](=O)[O-])OP(=O)([O-])[O-].O.O.O.O.O.O.[Na+].[Na+]
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+C1=CC(=CC=C1[N+](=O)[O-])OP(=O)([O-])[O-].O.O.O.O.O.O.[Na+].[Na+]
+
+>  <PUBCHEM_CACTVS_TPSA>
+124
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+371.021
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+22
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+9
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+1
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+17  19  8
+17  20  8
+18  21  8
+18  22  8
+19  21  8
+20  22  8
+
+$$$$

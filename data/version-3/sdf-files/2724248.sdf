@@ -1,0 +1,170 @@
+2724248
+ OpenBabel06101807152D
+
+ 33 32  0  0  0  0  0  0  0  0999 V2000
+    3.0000   -2.9050    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1340   -4.4050    0.0000 Na  0  3  0  0  0 15  0  0  0  0  0  0
+    4.7320    4.0950    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -3.9050    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+    2.0000   -2.9050    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0000   -2.9050    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8660   -0.4050    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8660    1.5950    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    0.0950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7320    0.0950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    1.0950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7320    1.0950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8660   -1.4050    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8660    2.5950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -1.9050    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7320    3.0950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9441   -0.4876    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3426    0.2027    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3894    0.2027    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7880   -0.4876    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7880    1.6776    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3894    0.9873    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3426    0.9873    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9441    1.6776    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0781   -1.9876    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4766   -1.2973    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6540    3.1776    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2554    2.4873    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7880   -1.3224    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3894   -2.0127    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9441    2.5124    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3426    3.2027    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2690    4.4050    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  4  1  0  0  0  0
+  1  5  2  0  0  0  0
+  1  6  2  0  0  0  0
+  1 15  1  0  0  0  0
+  3 16  1  0  0  0  0
+  3 33  1  0  0  0  0
+  7  9  1  0  0  0  0
+  7 10  1  0  0  0  0
+  7 13  1  0  0  0  0
+  8 11  1  0  0  0  0
+  8 12  1  0  0  0  0
+  8 14  1  0  0  0  0
+  9 11  1  0  0  0  0
+  9 19  1  0  0  0  0
+  9 20  1  0  0  0  0
+ 10 12  1  0  0  0  0
+ 10 17  1  0  0  0  0
+ 10 18  1  0  0  0  0
+ 11 21  1  0  0  0  0
+ 11 22  1  0  0  0  0
+ 12 23  1  0  0  0  0
+ 12 24  1  0  0  0  0
+ 13 15  1  0  0  0  0
+ 13 25  1  0  0  0  0
+ 13 26  1  0  0  0  0
+ 14 16  1  0  0  0  0
+ 14 27  1  0  0  0  0
+ 14 28  1  0  0  0  0
+ 15 29  1  0  0  0  0
+ 15 30  1  0  0  0  0
+ 16 31  1  0  0  0  0
+ 16 32  1  0  0  0  0
+M  CHG  2   2   1   4  -1
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+2724248
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+272
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+6
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+1
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+5
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADceBzOCBAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAAAHgQACAAAAADlwAaAAAMAAgIAAAAAAHBAAAAAAAAAAAAIAAACUAAAAAAQAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+sodium;2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonate
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+sodium;2-[4-(2-hydroxyethyl)-1-piperazinyl]ethanesulfonate
+
+>  <PUBCHEM_IUPAC_NAME>
+sodium;2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonate
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+sodium;2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonate
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+sodium;2-[4-(2-hydroxyethyl)piperazino]ethanesulfonate
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C8H18N2O4S.Na/c11-7-5-9-1-3-10(4-2-9)6-8-15(12,13)14;/h11H,1-8H2,(H,12,13,14);/q;+1/p-1
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+RDZTWEVXRGYCFV-UHFFFAOYSA-M
+
+>  <PUBCHEM_EXACT_MASS>
+260.081
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C8H17N2NaO4S
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+260.284
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+C1CN(CCN1CCO)CCS(=O)(=O)[O-].[Na+]
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+C1CN(CCN1CCO)CCS(=O)(=O)[O-].[Na+]
+
+>  <PUBCHEM_CACTVS_TPSA>
+92.3
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+260.081
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+16
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+2
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+1
+
+>  <PUBCHEM_NONSTANDARDBOND>
+2  4  7
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+$$$$

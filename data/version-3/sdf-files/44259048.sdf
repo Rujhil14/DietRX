@@ -1,0 +1,193 @@
+44259048
+ OpenBabel06101807152D
+
+ 34 36  0  0  0  0  0  0  0  0999 V2000
+    5.5301   -0.6154    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7817    2.4192    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2622    1.3846    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000   -0.6395    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5301    2.3846    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8602   -2.1154    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6641    0.8846    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6641   -0.1154    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7702    1.4193    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8641    0.9054    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3961   -0.1154    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5301    1.3846    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7702   -0.6501    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3961    0.8846    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8641   -0.1362    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2622   -0.6154    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000    1.4088    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2622   -1.6154    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1282   -0.1154    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1282   -2.1154    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9942   -0.6154    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9942   -1.6154    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7773   -1.2700    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3121    1.9445    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4643    1.7208    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6879    0.8730    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7252   -1.9254    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1282    0.5046    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1282   -2.7354    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5312   -0.3054    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2484    2.7354    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2622    2.0046    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0024   -1.2595    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8602   -2.7354    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  8  1  0  0  0  0
+  1 11  1  0  0  0  0
+  2  9  1  0  0  0  0
+  2 31  1  0  0  0  0
+  3 14  1  0  0  0  0
+  3 32  1  0  0  0  0
+  4 15  1  0  0  0  0
+  4 33  1  0  0  0  0
+  5 12  2  0  0  0  0
+  6 22  1  0  0  0  0
+  6 34  1  0  0  0  0
+  7  8  2  0  0  0  0
+  7  9  1  0  0  0  0
+  7 12  1  0  0  0  0
+  8 13  1  0  0  0  0
+  9 10  2  0  0  0  0
+ 10 15  1  0  0  0  0
+ 10 17  1  0  0  0  0
+ 11 14  2  0  0  0  0
+ 11 16  1  0  0  0  0
+ 12 14  1  0  0  0  0
+ 13 15  2  0  0  0  0
+ 13 23  1  0  0  0  0
+ 16 18  2  0  0  0  0
+ 16 19  1  0  0  0  0
+ 17 24  1  0  0  0  0
+ 17 25  1  0  0  0  0
+ 17 26  1  0  0  0  0
+ 18 20  1  0  0  0  0
+ 18 27  1  0  0  0  0
+ 19 21  2  0  0  0  0
+ 19 28  1  0  0  0  0
+ 20 22  2  0  0  0  0
+ 20 29  1  0  0  0  0
+ 21 22  1  0  0  0  0
+ 21 30  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+44259048
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+479
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+6
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+4
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+1
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADccB4OAAAAAAAAAAAAAAAAAAAAAAAAAAwYIAAAAAAAACBQAAAGgAACAAADASAmAAyBoAABgCIAqBSAAICCAAkIAAIiAFGCMgMJzaGNRqCeWCl4BUIuQfI7PzOIAACCAAIAABAAAQQABAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+3,5,7-trihydroxy-2-(4-hydroxyphenyl)-6-methyl-chromen-4-one
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+3,5,7-trihydroxy-2-(4-hydroxyphenyl)-6-methyl-1-benzopyran-4-one
+
+>  <PUBCHEM_IUPAC_NAME>
+3,5,7-trihydroxy-2-(4-hydroxyphenyl)-6-methylchromen-4-one
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+2-(4-hydroxyphenyl)-6-methyl-3,5,7-tris(oxidanyl)chromen-4-one
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+3,5,7-trihydroxy-2-(4-hydroxyphenyl)-6-methyl-chromone
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C16H12O6/c1-7-10(18)6-11-12(13(7)19)14(20)15(21)16(22-11)8-2-4-9(17)5-3-8/h2-6,17-19,21H,1H3
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+NHMKZNNXBMLIHF-UHFFFAOYSA-N
+
+>  <PUBCHEM_XLOGP3>
+2.3
+
+>  <PUBCHEM_EXACT_MASS>
+300.063
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C16H12O6
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+300.266
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+CC1=C(C=C2C(=C1O)C(=O)C(=C(O2)C3=CC=C(C=C3)O)O)O
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+CC1=C(C=C2C(=C1O)C(=O)C(=C(O2)C3=CC=C(C=C3)O)O)O
+
+>  <PUBCHEM_CACTVS_TPSA>
+107
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+300.063
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+22
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+263
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+1  11  8
+1  8  8
+10  15  8
+11  14  8
+12  14  8
+13  15  8
+16  18  8
+16  19  8
+18  20  8
+19  21  8
+20  22  8
+21  22  8
+7  12  8
+7  8  8
+7  9  8
+8  13  8
+9  10  8
+
+$$$$

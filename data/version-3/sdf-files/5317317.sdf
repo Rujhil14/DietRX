@@ -1,0 +1,185 @@
+5317317
+ OpenBabel06101807152D
+
+ 34 35  0  0  0  0  0  0  0  0999 V2000
+    7.2764    0.3176    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5981    0.6224    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320    0.1224    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5981    1.6224    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3301    1.6224    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3301    0.6224    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4641    0.1224    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4641    2.1224    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320   -0.8776    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2764    1.9271    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320    2.1224    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8600    1.1224    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5870    2.8776    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660   -1.3776    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660   -2.3776    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000   -2.8776    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5200    0.7050    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1215    0.0147    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4641   -0.4976    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4641    2.7424    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9441   -1.4602    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3426   -0.7700    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0420    2.6593    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1951    2.4324    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4220    1.5854    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4800    1.1224    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1763    2.6850    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7796    3.4670    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9977    3.0702    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3291   -1.0676    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4030   -2.6876    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6900   -2.3407    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4631   -3.1876    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3100   -3.4146    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  6  1  0  0  0  0
+  1 12  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2  7  2  0  0  0  0
+  3  9  1  0  0  0  0
+  3 17  1  0  0  0  0
+  3 18  1  0  0  0  0
+  4  8  2  0  0  0  0
+  4 11  1  0  0  0  0
+  5  6  2  0  0  0  0
+  5  8  1  0  0  0  0
+  5 10  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7 19  1  0  0  0  0
+  8 20  1  0  0  0  0
+  9 14  1  0  0  0  0
+  9 21  1  0  0  0  0
+  9 22  1  0  0  0  0
+ 10 12  2  0  0  0  0
+ 10 13  1  0  0  0  0
+ 11 23  1  0  0  0  0
+ 11 24  1  0  0  0  0
+ 11 25  1  0  0  0  0
+ 12 26  1  0  0  0  0
+ 13 27  1  0  0  0  0
+ 13 28  1  0  0  0  0
+ 13 29  1  0  0  0  0
+ 14 15  2  0  0  0  0
+ 14 30  1  0  0  0  0
+ 15 16  1  0  0  0  0
+ 15 31  1  0  0  0  0
+ 16 32  1  0  0  0  0
+ 16 33  1  0  0  0  0
+ 16 34  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+5317317
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+246
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+1
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+0
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+3
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADceBwIAAAAAAAAAAAAAAAAAAAASAAAAAwAAAAAAAAAEgB8AAAGgAAAAAADASgmAIyBsAABECIAqhSgAACCAAkIAAIiAEGCMgMJjKENRqCOSCkwBEIqYeIyPCO4AADAAAYAADAAAYAADAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+3,5-dimethyl-6-[(E)-pent-3-enyl]benzofuran
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+3,5-dimethyl-6-[(E)-pent-3-enyl]benzofuran
+
+>  <PUBCHEM_IUPAC_NAME>
+3,5-dimethyl-6-[(E)-pent-3-enyl]-1-benzofuran
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+3,5-dimethyl-6-[(E)-pent-3-enyl]-1-benzofuran
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+3,5-dimethyl-6-[(E)-pent-3-enyl]benzofuran
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C15H18O/c1-4-5-6-7-13-9-15-14(8-11(13)2)12(3)10-16-15/h4-5,8-10H,6-7H2,1-3H3/b5-4+
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+YSEAISJCEBJBPG-SNAWJCMRSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+4.7
+
+>  <PUBCHEM_EXACT_MASS>
+214.136
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C15H18O
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+214.308
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+CC=CCCC1=C(C=C2C(=COC2=C1)C)C
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+C/C=C/CCC1=C(C=C2C(=COC2=C1)C)C
+
+>  <PUBCHEM_CACTVS_TPSA>
+13.1
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+214.136
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+16
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+1
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+1
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+1  12  8
+1  6  8
+10  12  8
+2  4  8
+2  7  8
+4  8  8
+5  10  8
+5  6  8
+5  8  8
+6  7  8
+
+$$$$

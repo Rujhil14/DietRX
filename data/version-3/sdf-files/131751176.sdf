@@ -1,0 +1,183 @@
+131751176
+ OpenBabel06101807152D
+
+ 33 35  0  0  1  0  0  0  0  0999 V2000
+    4.7356    1.9915    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6349   -2.5399    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7471    0.9915    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5120   -3.2952    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1279   -0.3780    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2846    0.9112    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5130    2.0293    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3670   -2.5399    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2869    1.0052    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7240    2.9914    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7356    1.9799    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7355    2.0030    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8227   -0.7352    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    4.7689   -1.0399    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2391   -1.5399    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6349   -0.5399    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7689   -2.0399    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8227   -2.3446    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5009   -1.0399    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6189    0.5016    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0784   -0.0673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5009   -2.0399    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4110   -0.5331    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5169    1.0293    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4190    0.5085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1315   -0.1976    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7782   -1.1252    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7782   -1.9546    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9443   -0.8493    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000   -0.9847    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0488    2.3414    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.8227    0.6931    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1835    3.2952    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0  0  0  0
+  1 10  1  0  0  0  0
+  1 11  2  0  0  0  0
+  1 12  2  0  0  0  0
+  2 17  1  0  0  0  0
+  2 22  1  0  0  0  0
+  3 20  1  0  0  0  0
+  4 18  2  0  0  0  0
+  5 21  1  0  0  0  0
+  5 30  1  0  0  0  0
+  6 21  2  0  0  0  0
+  7 24  1  0  0  0  0
+  7 31  1  0  0  0  0
+  8 22  2  0  0  0  0
+  9 25  1  0  0  0  0
+  9 32  1  0  0  0  0
+ 10 33  1  0  0  0  0
+ 13 14  1  0  0  0  0
+ 13 15  1  0  0  0  0
+ 13 21  1  0  0  0  0
+ 13 26  1  0  0  0  0
+ 14 16  1  0  0  0  0
+ 14 17  2  0  0  0  0
+ 15 18  1  0  0  0  0
+ 15 27  1  0  0  0  0
+ 15 28  1  0  0  0  0
+ 16 19  1  0  0  0  0
+ 16 20  2  0  0  0  0
+ 17 18  1  0  0  0  0
+ 19 22  1  0  0  0  0
+ 19 23  2  0  0  0  0
+ 20 24  1  0  0  0  0
+ 23 25  1  0  0  0  0
+ 23 29  1  0  0  0  0
+ 24 25  2  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+131751176
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+776
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+11
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+4
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+3
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADccBwPABAAAAAAAAAAAAAAAAAAQAAAAAwQAAAAAAAAEiBAAAAGgAACAAADQSAmAAwDoAABoCIAqDSCDICCAAkIAAAiAFGiMgJJzKCNB6CcQElwBUJuYfL7PzOoAABCAAYQABAAAIQADCAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+7,8-dihydroxy-3,5-dioxo-9-sulfooxy-1,2-dihydrocyclopenta[c]isochromene-1-carboxylic acid
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+7,8-dihydroxy-3,5-dioxo-9-sulfooxy-1,2-dihydrocyclopenta[c][2]benzopyran-1-carboxylic acid
+
+>  <PUBCHEM_IUPAC_NAME>
+7,8-dihydroxy-3,5-dioxo-9-sulfooxy-1,2-dihydrocyclopenta[c]isochromene-1-carboxylic acid
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+7,8-bis(oxidanyl)-3,5-bis(oxidanylidene)-9-sulfooxy-1,2-dihydrocyclopenta[c]isochromene-1-carboxylic acid
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+7,8-dihydroxy-3,5-diketo-9-sulfoxy-1,2-dihydrocyclopent[c]isochromene-1-carboxylic acid
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C13H8O11S/c14-5-2-4-8(11(9(5)16)24-25(20,21)22)7-3(12(17)18)1-6(15)10(7)23-13(4)19/h2-3,14,16H,1H2,(H,17,18)(H,20,21,22)
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+FOTVSXFSPLKLQZ-UHFFFAOYSA-N
+
+>  <PUBCHEM_EXACT_MASS>
+371.979
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C13H8O11S
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+372.256
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+C1C(C2=C(C1=O)OC(=O)C3=CC(=C(C(=C32)OS(=O)(=O)O)O)O)C(=O)O
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+C1C(C2=C(C1=O)OC(=O)C3=CC(=C(C(=C32)OS(=O)(=O)O)O)O)C(=O)O
+
+>  <PUBCHEM_CACTVS_TPSA>
+193
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+371.979
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+25
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+1
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+175
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+13  21  3
+14  16  8
+14  17  8
+16  19  8
+16  20  8
+19  22  8
+19  23  8
+2  17  8
+2  22  8
+20  24  8
+23  25  8
+24  25  8
+
+$$$$

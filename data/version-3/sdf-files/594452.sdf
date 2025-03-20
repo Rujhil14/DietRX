@@ -1,0 +1,156 @@
+594452
+ OpenBabel06101807152D
+
+ 20 21  0  0  0  0  0  0  0  0999 V2000
+    2.0000   -0.3916    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9674   -1.8531    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320    0.6084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320   -0.3916    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660    1.1084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6783   -0.6964    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6783    0.9131    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2619    0.1084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660   -0.8916    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000    0.6084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660    2.1084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9889   -1.6469    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8709    1.5024    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8819    0.1084    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660   -1.5116    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4631    0.9184    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4860    2.1084    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660    2.7284    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2460    2.1084    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5749   -2.1084    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  9  1  0  0  0  0
+  1 10  1  0  0  0  0
+  2 12  2  0  0  0  0
+  3  4  1  0  0  0  0
+  3  5  1  0  0  0  0
+  3  7  2  0  0  0  0
+  4  6  1  0  0  0  0
+  4  9  2  0  0  0  0
+  5 10  2  0  0  0  0
+  5 11  1  0  0  0  0
+  6  8  2  0  0  0  0
+  6 12  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7 13  1  0  0  0  0
+  8 14  1  0  0  0  0
+  9 15  1  0  0  0  0
+ 10 16  1  0  0  0  0
+ 11 17  1  0  0  0  0
+ 11 18  1  0  0  0  0
+ 11 19  1  0  0  0  0
+ 12 20  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+594452
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+179
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+2
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+0
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+1
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADccBwMAAAAAAAAAAAAAAAAAAAAYAAAAAkAAAAAAAAAEgBgAAAGgAAAAAADACgmAIyBMAABECIAihSgAACCAAkIAAIiAEECMgMJjKENRqCOSCkwBEIqYeLyPCOgAAAAAAAAAAAAAAAAAAAAQAACAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+4-methylcyclopenta[c]pyran-7-carbaldehyde
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+4-methyl-7-cyclopenta[c]pyrancarboxaldehyde
+
+>  <PUBCHEM_IUPAC_NAME>
+4-methylcyclopenta[c]pyran-7-carbaldehyde
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+4-methylcyclopenta[c]pyran-7-carbaldehyde
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+4-methylcyclopenta[c]pyran-7-carbaldehyde
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C10H8O2/c1-7-5-12-6-10-8(4-11)2-3-9(7)10/h2-6H,1H3
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+IHEBZQKYPSMVBZ-UHFFFAOYSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+1.8
+
+>  <PUBCHEM_EXACT_MASS>
+160.052
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C10H8O2
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+160.172
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+CC1=COC=C2C1=CC=C2C=O
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+CC1=COC=C2C1=CC=C2C=O
+
+>  <PUBCHEM_CACTVS_TPSA>
+30.2
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+160.052
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+12
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+1
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+1  10  8
+1  9  8
+3  5  8
+3  7  8
+4  6  8
+4  9  8
+5  10  8
+6  8  8
+7  8  8
+
+$$$$

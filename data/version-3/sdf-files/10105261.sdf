@@ -1,0 +1,186 @@
+10105261
+ OpenBabel06101807152D
+
+ 33 35  0  0  0  0  0  0  0  0999 V2000
+    5.2740    2.0363    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0479    1.0122    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5298   -2.0330    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0
+    3.5298   -1.0330    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5836   -0.7282    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000   -1.5330    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5836   -2.3377    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3958   -0.5330    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2619   -1.0330    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3958   -2.5330    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2619   -2.0330    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3798    0.5086    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1719   -0.5261    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2778    1.0363    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1799    0.5155    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4060    2.5330    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9120    0.5088    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8346   -0.1613    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0462   -0.4190    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5391   -1.1182    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5391   -1.9477    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0462   -2.6469    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8346   -2.9046    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3958   -3.1530    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7988   -2.3430    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8393    0.8123    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7052   -0.8423    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7140    3.0711    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8679    2.8409    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0981    1.9948    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5999   -0.0269    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4477    0.1967    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2240    1.0446    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1 14  1  0  0  0  0
+  1 16  1  0  0  0  0
+  2 15  1  0  0  0  0
+  2 17  1  0  0  0  0
+  3  4  2  0  0  0  0
+  3  7  1  0  0  0  0
+  3 10  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  8  1  0  0  0  0
+  5  6  1  0  0  0  0
+  5 18  1  0  0  0  0
+  5 19  1  0  0  0  0
+  6  7  1  0  0  0  0
+  6 20  1  0  0  0  0
+  6 21  1  0  0  0  0
+  7 22  1  0  0  0  0
+  7 23  1  0  0  0  0
+  8  9  1  0  0  0  0
+  8 12  2  0  0  0  0
+  9 11  1  0  0  0  0
+  9 13  2  0  0  0  0
+ 10 11  2  0  0  0  0
+ 10 24  1  0  0  0  0
+ 11 25  1  0  0  0  0
+ 12 14  1  0  0  0  0
+ 12 26  1  0  0  0  0
+ 13 15  1  0  0  0  0
+ 13 27  1  0  0  0  0
+ 14 15  2  0  0  0  0
+ 16 28  1  0  0  0  0
+ 16 29  1  0  0  0  0
+ 16 30  1  0  0  0  0
+ 17 31  1  0  0  0  0
+ 17 32  1  0  0  0  0
+ 17 33  1  0  0  0  0
+M  CHG  1   3   1
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+10105261
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+271
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+2
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+0
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+2
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADceByMAAAAAAAAAAAAAAAAAAAAWAAAAA8QAAAAAAAAFix8AAAHgAAAAAADAzBngY+htMMFACgAzRnRACCiCAxIiAI2CA+7JgNJuLEsZuEMCpkwBHK6Aew0PMOoAABAAAQQABAAAIAACCAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+8,9-dimethoxy-2,3-dihydro-1H-pyrrolo[2,1-a]isoquinolin-4-ium
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+8,9-dimethoxy-2,3-dihydro-1H-pyrrolo[2,1-a]isoquinolin-4-ium
+
+>  <PUBCHEM_IUPAC_NAME>
+8,9-dimethoxy-2,3-dihydro-1H-pyrrolo[2,1-a]isoquinolin-4-ium
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+8,9-dimethoxy-2,3-dihydro-1H-pyrrolo[2,1-a]isoquinolin-4-ium
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+8,9-dimethoxy-2,3-dihydro-1H-pyrrol[2,1-a]isoquinolin-4-ium
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C14H16NO2/c1-16-13-8-10-5-7-15-6-3-4-12(15)11(10)9-14(13)17-2/h5,7-9H,3-4,6H2,1-2H3/q+1
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+BHUXEEVRLQFWKE-UHFFFAOYSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+2.5
+
+>  <PUBCHEM_EXACT_MASS>
+230.118
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C14H16NO2+
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+230.287
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+COC1=C(C=C2C3=[N+](CCC3)C=CC2=C1)OC
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+COC1=C(C=C2C3=[N+](CCC3)C=CC2=C1)OC
+
+>  <PUBCHEM_CACTVS_TPSA>
+22.3
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+230.118
+
+>  <PUBCHEM_TOTAL_CHARGE>
+1
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+17
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+1
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+10  11  8
+12  14  8
+13  15  8
+14  15  8
+3  10  8
+3  4  8
+4  8  8
+8  12  8
+8  9  8
+9  11  8
+9  13  8
+
+$$$$

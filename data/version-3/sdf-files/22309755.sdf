@@ -1,0 +1,203 @@
+22309755
+ OpenBabel06101807152D
+
+ 42 44  0  0  0  0  0  0  0  0999 V2000
+    6.4791    1.8000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0778    2.8180    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5878    0.1444    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3968   -0.4434    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1569   -0.1646    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3968   -3.4434    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3090    1.9045    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6180    2.8556    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3090    1.9045    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000    2.8556    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8090    3.4434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8968    1.0955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8968    1.0955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2058    0.1444    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4846    1.9045    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3968   -1.4434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2628   -1.9434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5308   -1.9434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0669    2.6090    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2628   -2.9434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5308   -2.9434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0614    2.5045    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9214    2.0015    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1844    2.6034    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9280    3.3925    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7026    1.7756    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3738    1.2879    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2239    3.9041    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3942    3.9041    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6900    3.3925    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4336    2.6034    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6176    0.2503    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2858   -0.7710    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7998   -1.6334    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9938   -1.6334    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2378    3.2050    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5096    2.8808    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7998   -3.2534    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9938   -3.2534    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9966    1.8879    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6780    2.4397    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1262    3.1211    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1 15  1  0  0  0  0
+  1 19  1  0  0  0  0
+  2 15  2  0  0  0  0
+  3  4  1  0  0  0  0
+  3 12  2  0  0  0  0
+  4 14  1  0  0  0  0
+  4 16  1  0  0  0  0
+  5 14  1  0  0  0  0
+  5 32  1  0  0  0  0
+  5 33  1  0  0  0  0
+  6 20  2  0  0  0  0
+  6 21  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7  9  1  0  0  0  0
+  7 12  1  0  0  0  0
+  7 23  1  0  0  0  0
+  8 11  1  0  0  0  0
+  8 24  1  0  0  0  0
+  8 25  1  0  0  0  0
+  9 10  1  0  0  0  0
+  9 26  1  0  0  0  0
+  9 27  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 10 30  1  0  0  0  0
+ 10 31  1  0  0  0  0
+ 11 28  1  0  0  0  0
+ 11 29  1  0  0  0  0
+ 12 13  1  0  0  0  0
+ 13 14  2  0  0  0  0
+ 13 15  1  0  0  0  0
+ 16 17  2  0  0  0  0
+ 16 18  1  0  0  0  0
+ 17 20  1  0  0  0  0
+ 17 34  1  0  0  0  0
+ 18 21  2  0  0  0  0
+ 18 35  1  0  0  0  0
+ 19 22  1  0  0  0  0
+ 19 36  1  0  0  0  0
+ 19 37  1  0  0  0  0
+ 20 38  1  0  0  0  0
+ 21 39  1  0  0  0  0
+ 22 40  1  0  0  0  0
+ 22 41  1  0  0  0  0
+ 22 42  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+22309755
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+380
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+5
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+1
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+5
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADceB7sAAAAAAAAAAAAAAAAAAAAeIAAAAsAAAAAAAAAAAB4AAAHgAYAAAADQjhngY/+JJIFACqAzb3bACShCM1AiAc2CE4bNiIJnrA8dmGtYh2iALI6WeYyOCOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+ethyl 5-amino-3-cyclopentyl-1-(4-pyridyl)pyrazole-4-carboxylate
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+5-amino-3-cyclopentyl-1-pyridin-4-yl-4-pyrazolecarboxylic acid ethyl ester
+
+>  <PUBCHEM_IUPAC_NAME>
+ethyl 5-amino-3-cyclopentyl-1-pyridin-4-ylpyrazole-4-carboxylate
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+ethyl 5-azanyl-3-cyclopentyl-1-pyridin-4-yl-pyrazole-4-carboxylate
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+5-amino-3-cyclopentyl-1-(4-pyridyl)pyrazole-4-carboxylic acid ethyl ester
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C16H20N4O2/c1-2-22-16(21)13-14(11-5-3-4-6-11)19-20(15(13)17)12-7-9-18-10-8-12/h7-11H,2-6,17H2,1H3
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+RQBDMGDWDNXUHR-UHFFFAOYSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+2.9
+
+>  <PUBCHEM_EXACT_MASS>
+300.159
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C16H20N4O2
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+300.362
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+CCOC(=O)C1=C(N(N=C1C2CCCC2)C3=CC=NC=C3)N
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+CCOC(=O)C1=C(N(N=C1C2CCCC2)C3=CC=NC=C3)N
+
+>  <PUBCHEM_CACTVS_TPSA>
+83
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+300.159
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+22
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+4
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+12  13  8
+13  14  8
+16  17  8
+16  18  8
+17  20  8
+18  21  8
+3  12  8
+3  4  8
+4  14  8
+6  20  8
+6  21  8
+
+$$$$

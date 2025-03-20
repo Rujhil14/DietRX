@@ -1,0 +1,194 @@
+189609
+ OpenBabel06101807152D
+
+ 34 37  0  0  0  0  0  0  0  0999 V2000
+    5.5022   -1.0209    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0744    0.8185    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0744   -0.7910    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2622    2.0137    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5138    2.0483    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3961    0.5137    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3961   -0.4863    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1282    0.5137    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2622    1.0137    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1282   -0.4863    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2622   -0.9863    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5022    1.0484    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5961   -0.5071    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5961    0.5346    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.6580    0.0137    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320   -1.0104    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8641   -0.5138    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7359   -2.0104    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1282    2.5137    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000   -1.0171    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8718   -2.5137    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0038   -2.0171    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2622   -1.6063    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0604    0.8466    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   10.1189   -0.4010    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   10.1189    0.4285    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8617    0.1062    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2740   -2.3183    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4382    1.9768    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6651    2.8237    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8182    3.0507    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4619   -0.7092    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8742   -3.1337    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4681   -2.3292    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  7  1  0  0  0  0
+  1 13  1  0  0  0  0
+  2  8  1  0  0  0  0
+  2 15  1  0  0  0  0
+  3 10  1  0  0  0  0
+  3 15  1  0  0  0  0
+  4  9  1  0  0  0  0
+  4 19  1  0  0  0  0
+  5 12  2  0  0  0  0
+  6  7  1  0  0  0  0
+  6  9  2  0  0  0  0
+  6 12  1  0  0  0  0
+  7 11  2  0  0  0  0
+  8  9  1  0  0  0  0
+  8 10  2  0  0  0  0
+ 10 11  1  0  0  0  0
+ 11 23  1  0  0  0  0
+ 12 14  1  0  0  0  0
+ 13 14  2  0  0  0  0
+ 13 16  1  0  0  0  0
+ 14 24  1  0  0  0  0
+ 15 25  1  0  0  0  0
+ 15 26  1  0  0  0  0
+ 16 17  2  0  0  0  0
+ 16 18  1  0  0  0  0
+ 17 20  1  0  0  0  0
+ 17 27  1  0  0  0  0
+ 18 21  2  0  0  0  0
+ 18 28  1  0  0  0  0
+ 19 29  1  0  0  0  0
+ 19 30  1  0  0  0  0
+ 19 31  1  0  0  0  0
+ 20 22  2  0  0  0  0
+ 20 32  1  0  0  0  0
+ 21 22  1  0  0  0  0
+ 21 33  1  0  0  0  0
+ 22 34  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+189609
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+468
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+5
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+0
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+2
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADccB4OAAAAAAAAAAAAAAAAAAAASAAAAAwYIAAAAAAAEiBQAAAGgAAAAAADASAmAMyDoAABACIAqBSAAACCAAkIAAIiAEGiMgdJzaENRqiOWKl4BUOqQfK7LzOIQABCAAIQABCAAIQABCAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+9-methoxy-6-phenyl-[1,3]dioxolo[4,5-g]chromen-8-one
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+9-methoxy-6-phenyl-[1,3]dioxolo[4,5-g][1]benzopyran-8-one
+
+>  <PUBCHEM_IUPAC_NAME>
+9-methoxy-6-phenyl-[1,3]dioxolo[4,5-g]chromen-8-one
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+9-methoxy-6-phenyl-[1,3]dioxolo[4,5-g]chromen-8-one
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+9-methoxy-6-phenyl-[1,3]dioxolo[4,5-g]chromen-8-one
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C17H12O5/c1-19-17-15-11(18)7-12(10-5-3-2-4-6-10)22-13(15)8-14-16(17)21-9-20-14/h2-8H,9H2,1H3
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+NGLORVNWTNPBMU-UHFFFAOYSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+3
+
+>  <PUBCHEM_EXACT_MASS>
+296.068
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C17H12O5
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+296.278
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+COC1=C2C(=CC3=C1OCO3)OC(=CC2=O)C4=CC=CC=C4
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+COC1=C2C(=CC3=C1OCO3)OC(=CC2=O)C4=CC=CC=C4
+
+>  <PUBCHEM_CACTVS_TPSA>
+54
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+296.068
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+22
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+1
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+1  13  8
+1  7  8
+10  11  8
+12  14  8
+13  14  8
+16  17  8
+16  18  8
+17  20  8
+18  21  8
+20  22  8
+21  22  8
+6  12  8
+6  7  8
+6  9  8
+7  11  8
+8  10  8
+8  9  8
+
+$$$$

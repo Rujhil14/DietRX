@@ -1,0 +1,134 @@
+102460656
+ OpenBabel06101807152D
+
+ 17 15  0  0  0  0  0  0  0  0999 V2000
+    5.5696   -3.2287    0.0000 Mn  0  2  0  0  0 15  0  0  0  0  0  0
+    3.2247    2.7904    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000    1.5656    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5696   -3.2287    0.0000 S   0  5  0  0  0  0  0  0  0  0  0  0
+    5.5696   -2.2287    0.0000 S   0  5  0  0  0  0  0  0  0  0  0  0
+    3.6730    1.1173    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8625   -1.5216    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4142    0.1514    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1213   -0.5557    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9659    1.8244    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5696   -2.2287    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8523    0.4134    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0586   -0.3565    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6832   -0.8177    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4769   -0.0478    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2719    1.2778    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7863    3.2287    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  2 10  1  0  0  0  0
+  2 17  1  0  0  0  0
+  3 10  2  0  0  0  0
+  4 11  1  0  0  0  0
+  5 11  1  0  0  0  0
+  6  8  1  0  0  0  0
+  6 10  1  0  0  0  0
+  6 16  1  0  0  0  0
+  7  9  1  0  0  0  0
+  7 11  2  0  0  0  0
+  8  9  1  0  0  0  0
+  8 12  1  0  0  0  0
+  8 13  1  0  0  0  0
+  9 14  1  0  0  0  0
+  9 15  1  0  0  0  0
+M  CHG  3   1   2   4  -1   5  -1
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+102460656
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+140
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+5
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+2
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+3
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADcYBjAABwAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAQQAAAAAADBAAQAAALAAAQkAAAABAAAEAAAAAkAAIAIAAAAQAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+manganous;2-(dithiocarboxyamino)ethyliminomethanedithiolate
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+2-(dithiocarboxyamino)ethyliminomethanedithiolate;manganese(2+)
+
+>  <PUBCHEM_IUPAC_NAME>
+2-(dithiocarboxyamino)ethyliminomethanedithiolate;manganese(2+)
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+2-(dithiocarboxyamino)ethyliminomethanedithiolate;manganese(2+)
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+manganous;2-(dithiocarboxyamino)ethyliminomethanedithiolate
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C4H8N2S4.Mn/c7-3(8)5-1-2-6-4(9)10;/h1-2H2,(H2,5,7,8)(H2,6,9,10);/q;+2/p-2
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+YKSNLCVSTHTHJA-UHFFFAOYSA-L
+
+>  <PUBCHEM_EXACT_MASS>
+264.879
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C4H6MnN2S4
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+265.284
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+C(CN=C([S-])[S-])NC(=S)S.[Mn+2]
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+C(CN=C([S-])[S-])NC(=S)S.[Mn+2]
+
+>  <PUBCHEM_CACTVS_TPSA>
+59.5
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+264.879
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+11
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+2
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+2
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+$$$$

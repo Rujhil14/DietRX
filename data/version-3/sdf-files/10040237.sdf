@@ -1,0 +1,186 @@
+10040237
+ OpenBabel06101807152D
+
+ 35 37  0  0  1  0  0  0  0  0999 V2000
+    5.7021    0.5195    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5111    2.1073    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3388   -0.5986    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0601   -2.3586    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7511   -1.4076    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7511    1.8285    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7511    0.2105    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    5.3388   -0.5986    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    3.8000   -0.0986    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1633    1.0195    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8000   -1.0986    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9061    0.4361    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9061   -1.6332    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7021    1.5195    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000   -0.0777    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000   -1.1194    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8388   -1.4646    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3910   -3.1018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4066    3.1018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6203   -0.0461    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7025    1.4343    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7025    0.6046    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9132    1.0561    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9132   -2.2532    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4643    0.2343    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4643   -1.4314    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3019   -1.7746    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1488   -2.0015    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3758   -1.1546    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9302   -2.6869    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9761   -3.5625    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8517   -3.5166    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0232    3.1666    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3418    3.7184    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7900    3.0370    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  7  1  0  0  0  0
+  1 14  1  0  0  0  0
+  2 14  1  0  0  0  0
+  2 19  1  0  0  0  0
+  3  8  1  0  0  0  0
+  3 17  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4 18  1  0  0  0  0
+  5  8  1  0  0  0  0
+  5 11  1  0  0  0  0
+  6 10  1  0  0  0  0
+  6 14  2  0  0  0  0
+  7  8  1  0  0  0  0
+  7  9  1  0  0  0  0
+  7 10  1  0  0  0  0
+  8 20  1  0  0  0  0
+  9 11  1  0  0  0  0
+  9 12  2  0  0  0  0
+ 10 21  1  0  0  0  0
+ 10 22  1  0  0  0  0
+ 11 13  2  0  0  0  0
+ 12 15  1  0  0  0  0
+ 12 23  1  0  0  0  0
+ 13 16  1  0  0  0  0
+ 13 24  1  0  0  0  0
+ 15 16  2  0  0  0  0
+ 15 25  1  0  0  0  0
+ 16 26  1  0  0  0  0
+ 17 27  1  0  0  0  0
+ 17 28  1  0  0  0  0
+ 17 29  1  0  0  0  0
+ 18 30  1  0  0  0  0
+ 18 31  1  0  0  0  0
+ 18 32  1  0  0  0  0
+ 19 33  1  0  0  0  0
+ 19 34  1  0  0  0  0
+ 19 35  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+10040237
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+380
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+6
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+0
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+3
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADceBzMABgAAAAAAAAAAAAAAAAAWIAAAAwAAAAAAAAAFgBAAAAHgQEAAAADAjh2AaywIIQBAigAiRCRACCEQAhAhAoiAAIZIgIICLg0ZGEIAhmwAHIyAewwOAOgAAAAAACAAAAAAAAAAQAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+1',2'-dimethoxy-2-methylsulfanyl-spiro[4H-thiazole-5,3'-indoline]
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+1,2-dimethoxy-2'-(methylthio)spiro[2H-indole-3,5'-4H-thiazole]
+
+>  <PUBCHEM_IUPAC_NAME>
+1,2-dimethoxy-2'-methylsulfanylspiro[2H-indole-3,5'-4H-1,3-thiazole]
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+1,2-dimethoxy-2'-methylsulfanyl-spiro[2H-indole-3,5'-4H-1,3-thiazole]
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+1',2'-dimethoxy-2-(methylthio)spiro[2-thiazoline-5,3'-indoline]
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C13H16N2O2S2/c1-16-11-13(8-14-12(18-3)19-13)9-6-4-5-7-10(9)15(11)17-2/h4-7,11H,8H2,1-3H3
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+KJSKSCBVIGFOKZ-UHFFFAOYSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+2.6
+
+>  <PUBCHEM_EXACT_MASS>
+296.065
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C13H16N2O2S2
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+296.403
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+COC1C2(CN=C(S2)SC)C3=CC=CC=C3N1OC
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+COC1C2(CN=C(S2)SC)C3=CC=CC=C3N1OC
+
+>  <PUBCHEM_CACTVS_TPSA>
+84.7
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+296.065
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+19
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+2
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+1
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+11  13  8
+12  15  8
+13  16  8
+15  16  8
+8  3  3
+7  10  3
+9  11  8
+9  12  8
+
+$$$$

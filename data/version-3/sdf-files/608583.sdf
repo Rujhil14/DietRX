@@ -1,0 +1,181 @@
+608583
+ OpenBabel06101807152D
+
+ 34 35  0  0  0  0  0  0  0  0999 V2000
+    2.5369   -0.7673    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0174    2.2673    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7991    1.2568    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2690   -0.7673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2690   -1.7673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1350   -0.2673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1350    0.7327    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2690    1.2327    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4030   -0.2673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0290   -0.8020    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4030   -2.2673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1350   -2.2673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4030    0.7327    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0290    1.2674    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9350   -0.2881    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9350    0.7535    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2690    2.2327    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7991   -0.7914    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2690   -2.3873    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0218   -1.4219    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0930   -1.7304    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660   -2.5773    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7130   -2.8042    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8250   -2.8042    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6720   -2.5773    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4450   -1.7304    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660    1.0427    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8890    2.2327    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2690    2.8527    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6490    2.2327    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4870   -1.3272    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.3348   -1.1035    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1112   -0.2557    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000   -0.4573    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  9  1  0  0  0  0
+  1 34  1  0  0  0  0
+  2 14  2  0  0  0  0
+  3 16  2  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+  4  9  2  0  0  0  0
+  5 11  1  0  0  0  0
+  5 12  1  0  0  0  0
+  5 19  1  0  0  0  0
+  6  7  2  0  0  0  0
+  6 10  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7 14  1  0  0  0  0
+  8 13  2  0  0  0  0
+  8 17  1  0  0  0  0
+  9 13  1  0  0  0  0
+ 10 15  2  0  0  0  0
+ 10 20  1  0  0  0  0
+ 11 21  1  0  0  0  0
+ 11 22  1  0  0  0  0
+ 11 23  1  0  0  0  0
+ 12 24  1  0  0  0  0
+ 12 25  1  0  0  0  0
+ 12 26  1  0  0  0  0
+ 13 27  1  0  0  0  0
+ 14 16  1  0  0  0  0
+ 15 16  1  0  0  0  0
+ 15 18  1  0  0  0  0
+ 17 28  1  0  0  0  0
+ 17 29  1  0  0  0  0
+ 17 30  1  0  0  0  0
+ 18 31  1  0  0  0  0
+ 18 32  1  0  0  0  0
+ 18 33  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+608583
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+408
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+3
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+1
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+1
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADceBwMAAAAAAAAAAAAAAAAAAAAAAAAAAwQAAAAAAAAACBAAAAGgAACAAADQSAmAAyBoAAAgCIAqBSAAACAAAkIAAAiAEGCMgIJjKCFRKAcQAkwBEImYeIzPDO4AADAAAYAADAAAYAADAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+6-hydroxy-5-isopropyl-3,8-dimethyl-naphthalene-1,2-dione
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+6-hydroxy-3,8-dimethyl-5-propan-2-ylnaphthalene-1,2-dione
+
+>  <PUBCHEM_IUPAC_NAME>
+6-hydroxy-3,8-dimethyl-5-propan-2-ylnaphthalene-1,2-dione
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+3,8-dimethyl-6-oxidanyl-5-propan-2-yl-naphthalene-1,2-dione
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+6-hydroxy-5-isopropyl-3,8-dimethyl-1,2-naphthoquinone
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C15H16O3/c1-7(2)12-10-5-9(4)14(17)15(18)13(10)8(3)6-11(12)16/h5-7,16H,1-4H3
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+KAIIHLMDZDKJOC-UHFFFAOYSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+3
+
+>  <PUBCHEM_EXACT_MASS>
+244.11
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C15H16O3
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+244.29
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+CC1=CC2=C(C(=CC(=C2C(C)C)O)C)C(=O)C1=O
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+CC1=CC2=C(C(=CC(=C2C(C)C)O)C)C(=O)C1=O
+
+>  <PUBCHEM_CACTVS_TPSA>
+54.4
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+244.11
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+18
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+296
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+4  6  8
+4  9  8
+6  7  8
+7  8  8
+8  13  8
+9  13  8
+
+$$$$

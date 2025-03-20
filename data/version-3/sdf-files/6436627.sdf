@@ -1,0 +1,165 @@
+6436627
+ OpenBabel06101807152D
+
+ 29 29  0  0  1  0  0  0  0  0999 V2000
+    3.7601   -0.6133    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9511   -0.0255    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2601    0.9255    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2601    0.9255    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5691   -0.0255    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    2.0000    0.2835    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3633   -0.8346    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5202   -0.3346    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7281   -1.3127    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2633    0.3346    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0554    1.3127    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3249    1.5421    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6536    1.0544    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8665    1.0544    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1953    1.5421    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6661   -0.6379    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8617   -0.4701    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9988   -1.3362    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8649   -1.1990    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1916    0.8731    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4103    0.4751    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8084   -0.3062    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1216   -1.4416    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8570   -1.9192    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3345   -1.1838    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8530    0.1430    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6618    1.4416    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9265    1.9192    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4489    1.1838    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  5  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  6  1  0  0  0  0
+  2  7  1  0  0  0  0
+  3  4  1  0  0  0  0
+  3 12  1  0  0  0  0
+  3 13  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4 14  1  0  0  0  0
+  4 15  1  0  0  0  0
+  5  8  1  0  0  0  0
+  5 16  1  0  0  0  0
+  6 20  1  0  0  0  0
+  6 21  1  0  0  0  0
+  6 22  1  0  0  0  0
+  7 17  1  0  0  0  0
+  7 18  1  0  0  0  0
+  7 19  1  0  0  0  0
+  8  9  1  0  0  0  0
+  8 10  2  0  0  0  0
+  9 23  1  0  0  0  0
+  9 24  1  0  0  0  0
+  9 25  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 10 26  1  0  0  0  0
+ 11 27  1  0  0  0  0
+ 11 28  1  0  0  0  0
+ 11 29  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+6436627
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+168
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+1
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+0
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+1
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADceBwIAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAGgAAAAAADFSggAICAAAABACAAiBCAAAAAAAgAAAACAAAAAgABAIAIQACEAAEgAAIIAOAwEAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+2,2-dimethyl-5-[(Z)-1-methylprop-1-enyl]tetrahydrofuran
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+5-[(Z)-but-2-en-2-yl]-2,2-dimethyloxolane
+
+>  <PUBCHEM_IUPAC_NAME>
+5-[(Z)-but-2-en-2-yl]-2,2-dimethyloxolane
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+5-[(Z)-but-2-en-2-yl]-2,2-dimethyl-oxolane
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+2,2-dimethyl-5-[(Z)-1-methylprop-1-enyl]tetrahydrofuran
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C10H18O/c1-5-8(2)9-6-7-10(3,4)11-9/h5,9H,6-7H2,1-4H3/b8-5-
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+LPEYLSKLVYWOEQ-YVMONPNESA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+2.7
+
+>  <PUBCHEM_EXACT_MASS>
+154.136
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C10H18O
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+154.253
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+CC=C(C)C1CCC(O1)(C)C
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+C/C=C(/C)\C1CCC(O1)(C)C
+
+>  <PUBCHEM_CACTVS_TPSA>
+9.2
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+154.136
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+11
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+1
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+1
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+1
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+5  8  3
+
+$$$$
