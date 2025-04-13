@@ -33,7 +33,7 @@ def contact_us():
 # Route for "Search" page
 @app.route('/search')
 def search():
-    return render_template('common/search.html')
+    return render_template('search/search.html')
 
 # Route for Analytics (external link, no need for template)
 @app.route('/analytics')
