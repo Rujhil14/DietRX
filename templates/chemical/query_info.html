@@ -1,0 +1,5 @@
+{% for field_name, field  in [('Common Name', 'common_name'), ('IUPAC Name', 'iupac_name'), ('PubChem ID', 'pubchem_id'), ('Functional Group', 'functional_group'), ('Molecular Weight', 'molecular_weight'), ('Number of Hydrogen Bond Acceptors', 'hba_count'), ('Number of Hydrogen Bond Donors', 'hbd_count'), ('Number of Rings', 'num_rings'), ('Number of Rotatable Bonds' ,'num_rotatablebonds'), ('Number of Aromatic Bonds', 'number_of_aromatic_bonds'), ('AlogP', 'alogp')] %}
+{% if (request.args.get(field)) and (request.args.get(field).strip()) %}
+<h6 class="text-muted">{{field_name}}: <strong class="text-danger">{{request.args.get(field)}}</strong></h6>
+{% endif %}
+{% endfor %}

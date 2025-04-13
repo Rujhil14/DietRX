@@ -1,0 +1,51 @@
+<table id="results_table" role="grid" class="table table-striped table-bordered table-sm no-footer">
+
+</table>
+<script type="text/javascript">
+
+    function get_column_def(columns, data) {
+        var columnsDef = []
+        columns.forEach(function (title) {
+            columnsDef.push({
+                "title": title,
+                "render": function (data, type, row, meta) {
+                    var cell = row[row['mapping'][meta.col]]
+                    
+                    if ('link' in cell) {
+                        var data = cell['data']
+                        if (data!==null && data.length >= 30) {
+                            data = data.substring(0, 30) + '...'
+                        }
+                        return '<a title="'+cell['data']+'" target="_blank" style="white-space:nowrap;" href="' + cell['link'] + '" >' + data + '</a>';
+                    } else if ('extlink' in cell) {
+                        return '<a target="_blank" style="white-space:nowrap;" href="' + cell['extlink'] + '" >' + cell['data'] + '<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i></a>';
+                    } else if ('popup' in cell) {
+                        return '<button href="' + cell['popup'] + '" class="btn btn-primary btn-sm" role="button" data-toggle="modal" data-target="#modal">Details</button>'
+                    } else if ('fdassociation' in cell) {
+                        return '(<strong style="color: green">' + cell['positive'] + '</strong> ,<strong style="color: red">' + cell['negative'] + '</strong> ,<strong>' + cell['chemical'] + '</strong>)'
+                    } else {
+                        return cell['data']
+                    }
+                }
+            });
+        })
+        return columnsDef
+    }
+
+
+
+    $(document).ready(function () {
+        var data = {{ results | tojson}};
+        var columns = {{ column_names | tojson }};
+        var columnsDef = get_column_def(columns, data);
+        
+
+        var table = $('#results_table').DataTable({
+            'data': data,
+            'columns': columnsDef,
+            "ordering": false,
+            'dom': 'lBfrtip',
+            'buttons': [{ extend: 'csv', className: 'mt-2 btn btn-danger fas fa-download', text: '  Download', exportOptions: { orthogonal: 'export' } }],
+        });
+	});
+</script>

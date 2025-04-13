@@ -1,0 +1,201 @@
+{% extends 'common/index.html' %}
+
+{% block extra_head %}
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#view_jsmol').click(function(e){
+			e.preventDefault(e);
+			jmolInitialize("{{ url_for('static', filename='Jmol')}}");
+			jmolCheckBrowser("popup", "browsercheck", "onClick");
+			var jmol = jmolApplet("350px", "load {{url_for('static', filename='sdf_files/%i.sdf' % chemical.pubchem_id if not prediction else sdf_file)}};color C [255,255,255];set disablePopupMenu TRUE;");
+			$("#jsmol_div").html(jmol._code);
+		})
+	})
+</script>
+{% endblock %}
+
+{% block body %}
+	<div class="container pt-4">
+		<hr>
+		<h5><strong>{{ chemical['common_name'] or chemical['iupac_name'] }}</strong></h5>
+		<hr>
+		<div class="row">
+			<div class="col-md-8">
+			<table class="table table-hover table-striped table-expandable no-footer table-sm" style="table-layout: fixed; word-wrap: break-word;">
+
+					{% if chemical['pubchem_id'] %}
+					<tr>
+			    		<th scope="row" class="text-danger">PubChem CID</th>
+						<td style="word-break: break-all;">
+							<a target="_blank" href="https://pubchem.ncbi.nlm.nih.gov/compound/{{ chemical.pubchem_id }}">{{ chemical.pubchem_id }}
+								<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i>
+							</a>
+						</td>
+			    	</tr>
+			    	{% endif %}
+
+			    	
+			    	<!-- Fields specific to molecules in database -->
+					{% for display_name, attribute in [['SMILES', 'smiles'], ['Common Name', 'common_name'], ['IUPAC Name', 'iupac_name'], ['Functional Group(s)', 'functional_group']] %}				
+					{% if chemical[attribute] %}
+					<tr>
+			    		<th scope="row" class="text-danger">{{display_name}}</th>
+			    		<td>{{ chemical[attribute] }}</td>
+			    	</tr>
+					{% endif %}
+					{% endfor %}
+
+					<tr>
+			    		<th scope="row"><span class="text-danger">Molecular Properties</span></th>
+			    		<td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#exampleModal"> Show </button></span></td>
+			    	</tr>
+			    </table>
+			</div>
+	
+			<div class="col-md-4">
+				<img src="{{url_for('static', filename='images/molecules/%i.png' % chemical.pubchem_id)}}" class="img-fluid float-right img-thumbnail" style="width: 100%;">
+				<div id="jsmol_div">
+					<button id="view_jsmol" class="btn btn-primary" role="button" style="width: 100%; margin-top: 1em;">View JSmol</button>
+				</div>
+				<a target="_blank" href="{{ url_for('chemical_search', smiles=chemical.smiles)}}" class="btn btn-primary mt-1" role="button" style="width: 100%;">Search Similar in DietRx</a>
+				<a target="_blank" href="http://zinc15.docking.org/substances/subsets/world/?ecfp4_fp-dice-30={{ chemical.smiles }}&amp;highlight={{ chemical.smiles }}" class="btn btn-primary mt-1" role="button" style="width: 100%">ZINC Similarity Search <i class="fas fa-external-link-alt"></i></a>
+			</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Molecular Properties</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<table class="table table-hover table-striped table-expandable no-footer">
+							<tr>
+								<th scope="row">Molecular Weight</th>
+								<td>{{ None if chemical.molecular_weight is none else chemical.molecular_weight|round(2) }}</td>
+							</tr>
+							<tr>
+								<th scope="row">Number of Atoms</th>
+								<td>{{ None if chemical.num_atoms is none else chemical.num_atoms|round(2) }}</td>
+							</tr>
+							<tr>
+								<th scope="row">Number of Hydrogen Atoms</th>
+								<td>{{ None if chemical.num_hydrogen_atoms is none else chemical.num_hydrogen_atoms|round(2) }}</td>
+							</tr>
+							<tr>
+								<th scope="row">Number of Heavy Atoms</th>
+								<td>{{ None if chemical.num_heavy_atoms is none else chemical.num_heavy_atoms|round(2) }}</td>
+							</tr>
+							<tr>
+								<th scope="row">Number of Rings</th>
+								<td>{{ None if chemical.num_rings is none else chemical.num_rings|round(2) }}</td>
+							</tr>
+							<tr>
+								<th scope="row">Number of Rotatable Bonds</th>
+								<td>{{ None if chemical.num_rotatablebonds is none else chemical.num_rotatablebonds|round(2) }}</td>
+							</tr>
+							<tr>
+								<th scope="row">Number of Aromatic Bonds</th>
+								<td>{{ None if chemical.number_of_aromatic_bonds is none else chemical.number_of_aromatic_bonds|round(2) }}</td>
+							</tr>
+							<tr>
+								<th scope="row">Number of Hydrogen Bond Acceptors</th>
+								<td>{{ None if chemical.hba_count is none else chemical.hba_count|round(2) }}</td>
+							</tr>
+							<tr>
+								<th scope="row">Number of Hydrogen Bond Donors</th>
+								<td>{{ None if chemical.hbd_count is none else chemical.hbd_count|round(2) }}</td>
+							</tr>
+							<tr>
+								<th scope="row">Hydrophilic Index</th>
+								<td>{{ None if chemical.hyrophilic_index is none else chemical.hyrophilic_index|round(2) }}</td>
+							</tr>
+							<tr>
+								<th scope="row">AlogP</th>
+								<td>{{ None if chemical.alogp is none else chemical.alogp|round(2) }}</td>
+							</tr>
+						</table>
+						<div>
+							<p class="text-muted"> Details of Molecular Properties were obtained using <a href='https://academic.oup.com/bioinformatics/article/29/8/1092/233093' target="_blank">ChemoPy</a> Python package.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mb-4"></div>
+	<hr />
+	<h5 class="container"><strong>Associations</strong></h5>
+	<hr />
+	<img src="{{ url_for('static', filename='images/illustrations/chemical.JPG')}}" class="img-fluid mb-5 pt-4" alt="Responsive image">
+
+	<div class="row pt-4">
+		<div class="col-md-12">
+			
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+				
+				{% if subcategory == 'food' %}
+					<li class="nav-item">
+						<a class="nav-link active" id="food-tab" data-toggle="tab" href="#food" role="tab" aria-controls="food" aria-selected="true">Associated Foods</a>
+					</li>
+					{% elif not 'food' in subcategory_that_exist %}
+				{% else %}
+					<li class="nav-item">
+						<a class="nav-link" id="food-tab" href="{{url_for('get_chemical', pubchem_id=chemical.pubchem_id ,subcategory='food')}}">Associated Foods</a>
+					</li>
+				{% endif %}
+				{% if subcategory == 'disease' %}
+					<li class="nav-item">
+						<a class="nav-link active" id="disease-tab" data-toggle="tab" href="#disease" role="tab" aria-controls="disease" aria-selected="true">Associated & Inferred Diseases</a>
+					</li>
+					{% elif not 'disease' in subcategory_that_exist %}
+				{% else %}
+					<li class="nav-item">
+						<a class="nav-link" id="disease-tab" href="{{url_for('get_chemical', pubchem_id=chemical.pubchem_id ,subcategory='disease')}}">Associated & Inferred Diseases</a>
+					</li>
+				{% endif %}
+				{% if subcategory == 'gene' %}
+					<li class="nav-item">
+						<a class="nav-link active" id="gene-tab" data-toggle="tab" href="#gene" role="tab" aria-controls="gene" aria-selected="true">Associated & Inferred Genes</a>
+					</li>
+				{% elif not 'gene' in subcategory_that_exist %} {% else %}
+					<li class="nav-item">
+						<a class="nav-link" id="gene-tab" href="{{url_for('get_chemical', pubchem_id=chemical.pubchem_id ,subcategory='gene')}}">Associated & Inferred Genes</a>
+					</li>
+				{% endif %}
+				
+				
+				
+			</ul>
+			<div class="tab-content" id="myTabContent">
+				{% if subcategory == 'disease' %}
+					<div class="tab-pane fade show active" id="disease" role="tabpanel" aria-labelledby="disease-tab">
+						{% include 'disease/disease_chemical.html' %}
+						
+					</div>
+					{% elif subcategory == 'food' %}
+					<div class="tab-pane fade show active" id="food" role="tabpanel" aria-labelledby="food-tab">
+						
+						{% include 'food/food_chemical.html' %}
+						
+					</div>
+					{% elif subcategory == 'gene' %}
+					<div class="tab-pane fade show active" id="gene" role="tabpanel" aria-labelledby="gene-tab">
+						
+						{% include 'chemical/chemical_gene.html' %}
+						
+					</div>
+				{% endif %}
+			</div>
+			{% include 'common/pagination_links.html' %}
+		</div>
+	</div>
+	
+	
+</div>
+{% endblock %}

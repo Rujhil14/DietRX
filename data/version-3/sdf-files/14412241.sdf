@@ -1,0 +1,162 @@
+14412241
+ OpenBabel06101807152D
+
+ 24 25  0  0  1  0  0  0  0  0999 V2000
+    3.7320    2.1754    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320   -1.8246    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4804   -1.8592    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660    0.6754    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    2.8660   -0.3246    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320    1.1754    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5981    0.6754    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5981   -0.3246    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320   -0.8246    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000    1.1754    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4920   -0.8593    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4920    1.2100    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3981   -0.3454    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3981    0.6962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660    1.2954    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2554   -0.2169    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6540   -0.9072    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3100    1.7123    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4631    1.4854    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6900    0.6385    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4848    1.8300    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9338   -0.6575    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9338    1.0083    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0138   -2.1754    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  6  2  0  0  0  0
+  2  9  2  0  0  0  0
+  3 11  1  0  0  0  0
+  3 24  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+  4 10  1  0  0  0  0
+  4 15  1  0  0  0  0
+  5  9  1  0  0  0  0
+  5 16  1  0  0  0  0
+  5 17  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  2  0  0  0  0
+  7 12  1  0  0  0  0
+  8  9  1  0  0  0  0
+  8 11  1  0  0  0  0
+ 10 18  1  0  0  0  0
+ 10 19  1  0  0  0  0
+ 10 20  1  0  0  0  0
+ 11 13  2  0  0  0  0
+ 12 14  2  0  0  0  0
+ 12 21  1  0  0  0  0
+ 13 14  1  0  0  0  0
+ 13 22  1  0  0  0  0
+ 14 23  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+14412241
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+272
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+3
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+1
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+0
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADccBwMAAAAAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAAADBAAAAGgAACAAADQSAmAAyBoAAAgCIAqBSAAACAAAkIAAIiAEGCMgIJjaCFRKAcUAk4BEImYeLyPCOgAABAAAYAACAAAYAADAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+5-hydroxy-2-methyl-tetralin-1,4-dione
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+5-hydroxy-2-methyl-2,3-dihydronaphthalene-1,4-dione
+
+>  <PUBCHEM_IUPAC_NAME>
+5-hydroxy-2-methyl-2,3-dihydronaphthalene-1,4-dione
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+2-methyl-5-oxidanyl-2,3-dihydronaphthalene-1,4-dione
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+5-hydroxy-2-methyl-tetralin-1,4-quinone
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C11H10O3/c1-6-5-9(13)10-7(11(6)14)3-2-4-8(10)12/h2-4,6,12H,5H2,1H3
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+ALPCEXCHMFUSAN-UHFFFAOYSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+1.9
+
+>  <PUBCHEM_EXACT_MASS>
+190.063
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C11H10O3
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+190.198
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+CC1CC(=O)C2=C(C1=O)C=CC=C2O
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+CC1CC(=O)C2=C(C1=O)C=CC=C2O
+
+>  <PUBCHEM_CACTVS_TPSA>
+54.4
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+190.063
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+14
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+1
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+76
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+11  13  8
+12  14  8
+13  14  8
+4  10  3
+7  12  8
+7  8  8
+8  11  8
+
+$$$$

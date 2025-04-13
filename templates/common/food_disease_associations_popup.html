@@ -1,0 +1,103 @@
+
+        
+            <div class="modal-header">
+                <h4 class="modal-title text-capitalize" id="myModalLabel">Associations between {{result.food.display_name}} & {{result.disease.disease_name}}</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                
+                <div>
+                    <strong>{{result.via_chemicals|count}} Chemical(s) linked with {{result.food.display_name}} & {{result.disease.disease_name}}</strong>
+                    <br> 
+                    
+                    <div style="max-height: 400px; overflow: auto;">
+                        <table class="table table-hover table-sm" >
+                            <thead>
+                                <tr>
+                                    <th>PubChem ID</th>
+                                    <th>Common Name</th>
+                                    <th>Functional Group</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                {% for molecule in result.via_chemicals %}
+                                <tr>
+                                    <td style="white-space:nowrap;"><a target="_blank" href="https://pubchem.ncbi.nlm.nih.gov/compound/{{molecule.pubchem_id}}">{{molecule.pubchem_id}}<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i></a></td>
+                                    <td><a target="_blank" href="{{url_for('get_chemical', pubchem_id=molecule.pubchem_id)}}">{{molecule.common_name or molecule.iupac_name}}</a></td>
+                                    <td>{{molecule.functional_group}}</td>
+                                </tr>
+                                {% else %}
+                                <td colspan="10">
+                                No Chemical(s) linked with {{result.food.display_name}} & {{result.disease.disease_name}} were found.
+                                </td>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+
+                <hr />
+                <strong colspan="5">Text-mined <span style="color: green;">Positive ({{result.positive_associations|count}})</span> and <span style="color: red;">Negative ({{result.negative_associations|count}})</span> associations of {{result.food.display_name}} with {{result.disease.disease_name}}</strong>
+                <br>
+
+                <div style="max-height: 400px; overflow: auto;">
+                    <table class="table table-hover table-striped table-sm">
+                        <thead>
+                            <tr>
+                                <th>PMID</th>
+                                <th>Title</th>
+                                <th>Journal</th>
+                                <th>Year</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            {% for association in result.positive_associations %}
+                            
+                            <tr style="background-color: #bfffbf;">
+                                <td style="white-space:nowrap;">
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/{{ association.pmid }}">{{ association.pmid }}<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i></a>
+                                </td>
+                                <td data-toggle="tooltip" data-placement="bottom" title="{{ association.title }}">{{ association.title|truncate(40) }}</td>
+                                <td data-toggle="tooltip" data-placement="bottom" title="{{ association.journal_name }}">{{ association.journal_name_abbr }}</td>
+                                <td>{{ association.date }}</td>
+                            </tr>
+                            
+                            {% else %}
+                            <tr style="background-color: #bfffbf;">
+                                <td colspan="10">
+                                    No positive associations were obtained for {{result.food.display_name}} with {{result.disease.disease_name}}.
+                                </td>
+                            </tr>
+                            
+                            {% endfor %} {% for association in result.negative_associations %}
+                            
+                            <tr style="background-color: #ffbfc5;">
+                                <td>
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/{{ association.pmid }}">{{ association.pmid }}</a>
+                                </td>
+                                <td data-toggle="tooltip" data-placement="bottom" title="{{ association.title }}">{{ association.title|truncate(40) }}</td>
+                                <td data-toggle="tooltip" data-placement="bottom" title="{{ association.journal_name }}">{{ association.journal_name_abbr }}</td>
+                                <td>{{ association.date }}</td>
+                            </tr>
+                            
+                            {% else %}
+                            <tr style="background-color: #ffbfc5;">
+                                <td colspan="10">
+                                    No negative associations were obtained for {{result.food.display_name}} with {{result.disease.disease_name}}.
+                                </td>
+                            </tr>
+                            
+                            {% endfor %}
+                            
+                        </tbody>
+                    </table>
+                    
+                </div>
+                
+            </div>
+

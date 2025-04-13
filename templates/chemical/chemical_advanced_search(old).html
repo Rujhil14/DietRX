@@ -1,0 +1,48 @@
+{% extends 'common/index.html' %} 
+
+{% block extra_head %}
+<script type="application/javascript" src="{{ url_for('static', filename='jsme/jsme.nocache.js') }}"></script>
+<script type="text/javascript">
+    function submit_molecules() {
+
+        e.preventDefault();
+        $('#smiles').attr('value', jsmeAppletSearch.smiles());
+
+        document.getElementById("chemical-search-form").submit();
+
+    }
+    $(document).ready(function() {
+        $("#chemical-search-form").submit(function(e){
+            e.preventDefault(e);
+            $('#smiles').attr('value', jsmeAppletSearch.smiles());
+            document.getElementById("chemical-search-form").submit();
+        });
+    });
+</script>
+<script type="text/javascript">
+    function jsmeOnLoad() {
+        var width = 500;
+        var height = 360;
+        if(height > 350){
+            height = 350;
+        }
+        // console.log(height, width)
+        jsmeAppletSearch = new JSApplet.JSME("jsme_container_search", Math.abs(width).toString()+'px', Math.abs(height).toString()+'px');
+    }
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#alogp').removeClass('active');
+        $('#hbd').removeClass('active');
+        $('#hba').removeClass('active');
+    });
+</script>
+{% endblock %}
+{% block body %}
+<div class="container pt-4">
+    <hr />
+    <h5 class="container"><span><img src="{{url_for('static', filename='images/search_logo.png') }}" class="d-inline-block align-top" width="30" height="30"></span></span><strong>&nbsp;Chemical Advanced Search</strong></h5>
+    <hr /> 
+    {% include 'chemical/chemical_search.html' %}
+</div>
+{% endblock %} 

@@ -1,0 +1,145 @@
+85447654
+ OpenBabel06101807152D
+
+ 18 19  0  0  1  0  0  0  0  0999 V2000
+    6.0200   -0.2163    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1432    1.7234    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2483   -0.8171    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    2.9063    0.1226    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    4.6210   -0.2251    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    4.8798    0.7408    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    2.8257   -1.7234    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000    0.5452    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6803   -1.2619    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9474    0.7412    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7483   -0.8319    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3302    1.1670    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2620    1.1071    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4381    0.8072    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7380   -0.0167    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2638   -1.4614    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5637   -2.2853    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3876   -1.9855    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  5  1  0  0  0  0
+  1  6  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  4  1  0  0  0  0
+  3  5  1  0  0  0  0
+  3  7  1  0  0  0  0
+  3  9  1  0  0  0  0
+  4  6  1  0  0  0  0
+  4  8  1  0  0  0  0
+  4 10  1  0  0  0  0
+  5 11  1  0  0  0  0
+  6 12  1  0  0  0  0
+  7 16  1  0  0  0  0
+  7 17  1  0  0  0  0
+  7 18  1  0  0  0  0
+  8 13  1  0  0  0  0
+  8 14  1  0  0  0  0
+  8 15  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+85447654
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+91.1
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+2
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+0
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+0
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADccBgAABgAAAAAAAAAAAAAABIASJAAAAAAAAAAAAAAAAAAAAAGAQAAAAADQCEQACCAAAAAAgAAAAAAAAAAQAAABAAAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAAIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+2,3-dimethyl-5,6-dithiabicyclo[2.1.1]hexane
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+2,3-dimethyl-5,6-dithiabicyclo[2.1.1]hexane
+
+>  <PUBCHEM_IUPAC_NAME>
+2,3-dimethyl-5,6-dithiabicyclo[2.1.1]hexane
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+2,3-dimethyl-5,6-dithiabicyclo[2.1.1]hexane
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+2,3-dimethyl-5,6-dithiabicyclo[2.1.1]hexane
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C6H10S2/c1-3-4(2)6-7-5(3)8-6/h3-6H,1-2H3
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+YKHZXLJBTAIXHG-UHFFFAOYSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+3
+
+>  <PUBCHEM_EXACT_MASS>
+146.022
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C6H10S2
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+146.266
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+CC1C(C2SC1S2)C
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+CC1C(C2SC1S2)C
+
+>  <PUBCHEM_CACTVS_TPSA>
+50.6
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+146.022
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+8
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+2
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+1
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+3  7  3
+4  8  3
+
+$$$$

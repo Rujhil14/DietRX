@@ -1,0 +1,23 @@
+<div id="search_food" class="pb-4">
+	<!-- <hr />
+	<h5 class="container">
+		<span>
+			<img src="static/images/search_logo.png" class="d-inline-block align-top" style="max-width: 1em; max-height: 1em;">
+		</span>
+		<strong>&nbsp;&nbsp;Food Search</strong>
+	</h5>
+	<hr /> -->
+	<h5>Food Search</h5>
+	<form class="input-group mb-3 search-form">
+		<div class="input-group">
+			<input href="#food-results" table="food" type="text" name="query" class="form-control query-field" id="food_query"
+			placeholder="Enter any food's common/scientific name or food category (e.g. tomato)">
+			<div class="input-group-btn input-group-append">
+				<input role="button" class="btn btn-primary" type="submit" type="submit">Search</input>
+			</div>
+		</div>
+	</form>
+	<a href="{{url_for('view_all', type='food')}}" target="_blank">Browse All Foods</a>
+
+	<div id="food-results"></div>
+</div>

@@ -1,0 +1,46 @@
+            <div class="modal-header">
+                <h4 class="modal-title text-capitalize" id="myModalLabel">Associations between {{result.disease.disease_name}} & {{result.chemical.common_name}}</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div>
+                    <strong>{{result.via_genes|count}} Gene(s) linked with {{result.disease.disease_name}} & {{result.chemical.common_name}}</strong>
+                    <br>
+
+                    <div style="max-height: 400px; overflow: auto;">
+                        <table class="table table-hover table-striped table-sm">
+                            {% if result.via_genes %}
+                            <thead>
+                                <tr>
+                                    <th style="white-space:nowrap;">Entrez Gene ID</th>
+                                    <th>Gene Name</th>
+                                    <th>Gene Symbol</th>
+                                </tr>
+                            </thead>
+                            {% for gene in result.via_genes %}
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a target="_blank" href="https://www.ncbi.nlm.nih.gov/gene/{{gene.gene_id}}">{{gene.gene_id}}<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i></a>
+                                    </td>
+                                    <td>
+                                        <a target="_blank" href="{{url_for('get_gene', gene_id=gene.gene_id)}}">{{ gene.gene_name }}</a>
+                                    </td>
+                                    <td>
+                                        {{ gene.gene_symbol }}
+                                    </td>
+                                </tr>
+                            </tbody>
+                            {% endfor %}
+                            {% else %} 
+                                No Gene(s) linked with {{result.disease.disease_name}} & {{result.chemical.common_name}} were found. 
+                                <hr />
+                            {% endif %}
+                        </table>
+                    </div>
+
+                </div>
+            </div>

@@ -1,0 +1,190 @@
+5316766
+ OpenBabel06101807152D
+
+ 33 35  0  0  0  0  0  0  0  0999 V2000
+    5.5301   -1.3533    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000    0.6708    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0602   -1.3775    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5301    1.6467    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2785    1.6813    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000   -1.3775    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3961    0.1467    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6641    0.1467    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3961   -0.8533    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6641   -0.8533    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5301    0.6467    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2901    0.6813    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7702    0.6813    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2901   -1.3880    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7702   -1.3880    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8641    0.1675    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1962   -0.8741    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8641   -0.8741    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1962    0.1675    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0038    1.6708    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9282   -0.8808    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7773    1.3013    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2829   -2.0079    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7773   -2.0079    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7319    0.4796    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8118    1.9975    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0024   -1.9975    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6238    1.6684    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0062    2.2908    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3839    1.6732    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   10.2361   -1.4189    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4663   -0.5729    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    9.6203   -0.3427    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  9  1  0  0  0  0
+  1 10  1  0  0  0  0
+  2 16  1  0  0  0  0
+  2 20  1  0  0  0  0
+  3 17  1  0  0  0  0
+  3 21  1  0  0  0  0
+  4 11  2  0  0  0  0
+  5 12  1  0  0  0  0
+  5 26  1  0  0  0  0
+  6 18  1  0  0  0  0
+  6 27  1  0  0  0  0
+  7  9  1  0  0  0  0
+  7 11  1  0  0  0  0
+  7 12  2  0  0  0  0
+  8 10  1  0  0  0  0
+  8 11  1  0  0  0  0
+  8 13  2  0  0  0  0
+  9 14  2  0  0  0  0
+ 10 15  2  0  0  0  0
+ 12 19  1  0  0  0  0
+ 13 16  1  0  0  0  0
+ 13 22  1  0  0  0  0
+ 14 17  1  0  0  0  0
+ 14 23  1  0  0  0  0
+ 15 18  1  0  0  0  0
+ 15 24  1  0  0  0  0
+ 16 18  2  0  0  0  0
+ 17 19  2  0  0  0  0
+ 19 25  1  0  0  0  0
+ 20 28  1  0  0  0  0
+ 20 29  1  0  0  0  0
+ 20 30  1  0  0  0  0
+ 21 31  1  0  0  0  0
+ 21 32  1  0  0  0  0
+ 21 33  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+5316766
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+400
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+6
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+2
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+2
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADccBwOAAAAAAAAAAAAAAAAAAAAAAAAAA0YIAAAAAAAACRQAAAGgAACAAADASAmAIyBoAABgCIAqBSAAACCAAkIAAAiAEGiMgNJzaGNRqCeWOl4BULuYfK7PzOIQABCAAIQABCAAIQABCAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+1,6-dihydroxy-3,7-dimethoxy-xanthen-9-one
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+1,6-dihydroxy-3,7-dimethoxy-9-xanthenone
+
+>  <PUBCHEM_IUPAC_NAME>
+1,6-dihydroxy-3,7-dimethoxyxanthen-9-one
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+3,7-dimethoxy-1,6-bis(oxidanyl)xanthen-9-one
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+1,6-dihydroxy-3,7-dimethoxy-xanthone
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C15H12O6/c1-19-7-3-10(17)14-13(4-7)21-11-6-9(16)12(20-2)5-8(11)15(14)18/h3-6,16-17H,1-2H3
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+FLTBKCJDQMNPTA-UHFFFAOYSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+2.7
+
+>  <PUBCHEM_EXACT_MASS>
+288.063
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C15H12O6
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+288.255
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+COC1=CC(=C2C(=C1)OC3=CC(=C(C=C3C2=O)OC)O)O
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+COC1=CC(=C2C(=C1)OC3=CC(=C(C=C3C2=O)OC)O)O
+
+>  <PUBCHEM_CACTVS_TPSA>
+85.2
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+288.063
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+21
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+24
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+1  10  8
+1  9  8
+10  15  8
+12  19  8
+13  16  8
+14  17  8
+15  18  8
+16  18  8
+17  19  8
+7  11  8
+7  12  8
+7  9  8
+8  10  8
+8  11  8
+8  13  8
+9  14  8
+
+$$$$

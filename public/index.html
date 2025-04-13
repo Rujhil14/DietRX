@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" type="image/png" href="{{url_for('static', filename='images/logo.png')}}">
+		<title>DietRx</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		
+		<!-- datatables link-->
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.16/datatables.min.css"/>
+		
+		<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.16/datatables.min.js"></script>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script type="application/javascript" src="{{ url_for('static', filename='Jmol/Jmol.js') }}"></script>
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.bootstrap4.min.css"/>
+		<script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+		<script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
+		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
+		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.bootstrap4.min.js"></script>
+
+		<script type="text/javascript"src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.flash.min.js"></script>
+		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js"></script>
+		<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js"></script>
+
+		<script type="text/javascript" language="javascript" src="//cdn.datatables.net/plug-ins/1.10.18/dataRender/ellipsis.js"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-102869016-3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-102869016-3');
+	</script>
+
+	<script>	
+	jQuery(window).load(function() {
+			// will first fade out the loading animation
+		jQuery("#status").fadeOut();
+			// will fade out the whole DIV that covers the website.
+		jQuery("#preloader").delay(1000).fadeOut("slow");
+	})
+	</script>
+	<style>
+	#preloader {
+		 position: absolute;
+		 top: 0;
+		 left: 0;
+		 right: 0;
+		 bottom: 0;
+		 background-color: #fefefe;
+		 z-index: 99;
+		 height: 100%;
+	} 
+	#status { 
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+ background-image: url(https://cdn-images-1.medium.com/max/1600/0*cWpsf9D3g346Va20.gif);
+		background-repeat: no-repeat;
+	    background-position: center;
+	    margin: -100px 0 0 -100px;
+ 	}
+	</style>
+		{% block extra_head %}
+		{% endblock %}
+	</head>
+	<body>
+		<div id="preloader">
+
+			<div id="status">&nbsp;</div>
+
+		</div>
+		<script type="text/javascript">
+			function table_overflow(){
+				$('.table_overflow').css('max-height','500px')
+				$('.table_overflow').css('overflow','auto')
+			}
+		</script>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<div class="container">
+				
+			<a class="navbar-brand" href="{{ url_for('index') }}">
+			<img src="{{url_for('static', filename='images/logo.png') }}" class="d-inline-block align-top" style="max-width: 1.3em; max-height: 1.3em;">&nbsp;<strong>DietRx</strong></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_menu" aria-controls="navbar_menu" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+				<div class="collapse navbar-collapse" id="navbar_menu">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ url_for('index') }}">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ url_for('index') }}#search">Search</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="http://cosylab.iiitd.edu.in/dietrx/analytics/">Analytics</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ url_for('how_to_use') }}">How To Use</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ url_for('faq') }}">FAQs</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ url_for('contact_us') }}">Contact Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="http://cosylab.iiitd.edu.in">CoSyLab</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		{% block body %}
+			
+		{% endblock %}
+		<footer class="primary-footer">
+			<div class="copyright-wrap">
+				<div class="panel">
+					<div class="content">
+						<p><img alt="" src="{{url_for('static', filename='images/iiitd.png')}}"></p>
+						<P>Copyright &copy; 2018 &nbsp All rights reserved.<br><br>
+							<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a style="font-weight: bold;" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+						</P>
+						<p style="text-align: center;">All material on this website is a product of research and is provided for your information only and may not be construed as medical advice or instruction. <br> No action or inaction should be taken based solely on the contents of this information; instead, readers should consult appropriate health professionals on any matter relating to their health and well-being.</p>
+						<p><a href="https://iiitd.ac.in/" target="_blank"><strong>Indraprastha Institute of Information Technology Delhi (IIIT-Delhi)</strong></a> | <a       href="http://faculty.iiitd.ac.in/~bagler/" target="_blank">Dr. Ganesh Bagler</a></p>
+						<p><a target="_blank" href="https://www.facebook.com/ganesh.bagler"><img src="{{url_for('static', filename='images/facebook.png')}}" alt="facebook" /></a>
+						<a target="_blank" href="https://twitter.com/gansbags"><img src="{{url_for('static', filename='images/twwtter.png')}}" alt="tiwwter" /></a>
+						<a target="_blank" href="https://www.linkedin.com/in/ganeshbagler"><img src="{{url_for('static', filename='images/linkedin.png')}}" alt="linkedin'" /></a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<style type="text/css">
+		.primary-footer{margin-top:10em;}
+		.footer-wrap{ background:#1a202c;padding-top:50px; margin-top:50px; padding-bottom:50px;}
+		.footer .panel{float:left; background:none; width:300px;}
+		.footer .panel .title h1{ color:#ffffff;}
+		.footer .panel .content{padding-top:25px;}
+		.footer .panel .content p{ color:#435059;}
+		.footer .panel .content .button a{ margin-top:30px; background:#d13f31;}
+		.footer .panel .content .button a:hover{ margin-top:30px; background:#1f7872;}
+		.footer .panel .content ul li{ list-style:url({{ url_for( 'static', filename='images/arrow.png')}}) inside;}
+		.footer .panel .content ul li a{text-decoration:none; color:#435059;}
+		.footer .panel .content ul li a:hover{color:#d13f31;}
+		.copyright-wrap{ background:#1f7872; overflow:hidden; padding:40px 0px 40px 0px;}
+		.copyright-wrap .panel{margin:0 auto; background:none;}
+		.copyright-wrap .panel .content p{ color:#ffffff; text-align:center; font-size:12px;}
+		.copyright-wrap .panel .content p a{ text-decoration:none; color:#ffffff;}
+		.copyright-wrap .panel .content p a:hover{ color:#1a202c;}
+	</style>
+</body>
+</html>

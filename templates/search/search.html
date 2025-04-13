@@ -1,0 +1,314 @@
+{% extends 'common/index.html' %}
+{% block extra_head %}
+	<script type="application/javascript" src="{{ url_for('static', filename='jsme/jsme.nocache.js') }}"></script>
+	<script type="text/javascript">
+		function autocomplete(id){
+			$( id ).autocomplete({
+				minLength: 3,
+				source: function( request, response ) {
+					q = $(id)
+					$.ajax( {
+						url: "{{ url_for('autocomplete') }}?table="+ q.attr('table')+"&query="+request.term,
+						dataType: "json",
+						success: function( data ) {
+							data = JSON.parse(data);
+							var newData = [];
+							for(var i=0; i<data.length ; ++i){
+								newData.push({'value': data[i]})
+							}
+							response(Array.from(newData));
+						}
+					} );
+				}
+			} );
+		}
+		function search(){
+			$('.search-form').on('submit', function(event) {
+				event.preventDefault();
+				q = $(event.currentTarget).find('.query-field')
+				$.get("{{ url_for('search') }}?table="+q.attr('table')+"&query="+q.val(), function(data){
+					$(q.attr('href')).html(data);
+				});
+			});
+		}
+		function search_loader(id){
+			$('.query-field').hide();
+			$('#food_query').show();
+		
+			$(id).on('change', function () {
+				if ($(this).val() === "food") {
+					$('.query-field').hide();
+					$('#food_query').show();
+				}
+				else if ($(this).val() === "disease") {
+					$('.query-field').hide();
+					$('#disease_query').show();
+				}
+				else if ($(this).val() === "gene") {
+					$('.query-field').hide();
+					$('#gene_query').show();
+				}
+				else if ($(this).val() === "chemical") {
+					$('.query-field').hide();
+					$('#chemical_query').show();
+				}
+			});
+		}
+		function show_chemical_structure_search(){
+			$('#chemical_structure_search_button').on('click', function(event){
+				$('#chemical_structure_search').toggle()
+			});
+		}
+		$(document).ready(function(){
+			autocomplete('#food_query')
+			autocomplete('#disease_query')
+			autocomplete('#gene_query')
+			autocomplete('#chemical_query')
+			search()
+			show_chemical_structure_search()
+		});
+		$(document).ready(function(){
+			$(document).on('click', '.page-link', function(event){
+				event.preventDefault();
+				$.get($(this).attr('href'), function(data){
+					$('#results').html(data);
+				});
+			});
+		});
+	</script>
+
+
+
+
+
+
+
+<script type="text/javascript">
+	function submit_molecules() {
+
+		e.preventDefault();
+		$('#smiles').attr('value', jsmeAppletSearch.smiles());
+
+		document.getElementById("chemical-search-form").submit();
+
+	}
+	$(document).ready(function() {
+		$("#chemical-search-form").submit(function(e){
+			e.preventDefault(e);
+			$('#smiles').attr('value', jsmeAppletSearch.smiles());
+			document.getElementById("chemical-search-form").submit();
+		});
+	});
+</script>
+<script type="text/javascript">
+	function jsmeOnLoad() {
+		var width = 500;
+		var height = 360;
+		if(height > 350){
+			height = 350;
+		}
+		// console.log(height, width)
+		jsmeAppletSearch = new JSApplet.JSME("jsme_container_search", Math.abs(width).toString()+'px', Math.abs(height).toString()+'px');
+		$('#chemical_structure_search').hide()
+	}
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+  		$('#alogp').removeClass('active');
+  		$('#hbd').removeClass('active');
+  		$('#hba').removeClass('active');
+	});
+</script>
+
+
+{% endblock %}
+{% block body %}
+	<style>
+		.ui-autocomplete-loading {
+			background: white url("{{url_for('static',filename='images/ui-anim_basic_16x16.gif') }}") right center no-repeat;
+		}
+		.ui-autocomplete {
+			max-height: 200px;
+			overflow-y: auto;
+			overflow-x: hidden;
+		}
+	</style>
+	<style>
+		.search-options {
+			background-color: yellow;
+			font-weight: bold;
+		}
+	</style>
+	<div class="container pt-4">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="jumbotron text-center pt-3">
+					<h1>DietRx</h1>
+<p>An integrative resource to explore interrelationships among foods, diseases, genes and chemicals.</p>
+					<div class="row text-center btn-group btn-block pt-3 mb-0 pb-0">
+						<a href="#search" class="col-xs-12 col-md-3 btn btn-primary" role="button">Search</a>
+						<!-- <a href="#stats" class="col-xs-12 col-md-3 btn btn-primary" role="button">Statistics</a> -->
+						<a href="#analytics" class="col-xs-12 col-md-3 btn btn-primary" role="button">Analytics</a>
+						<a href="{{ url_for('how_to_use') }}" class="col-xs-12 col-md-3 btn btn-primary" role="button">How to Use</a>
+						<a href="{{ url_for('faq') }}" class="col-xs-12 col-md-3 btn btn-primary" role="button">FAQs</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		
+		<hr /><hr />
+		<h5 class="container"><strong>DietRx Summary</strong></h5>
+		<hr />
+		<div class="row">
+<blockquote class="blockquote ml-2 mr-2">
+			DietRx provides a platform for exploring health impacts of dietary ingredients by integrating interrelationships among food and key molecular agents. The resource assimilates dietary factors (food and chemicals), their health consequences (diseases) and genetic mechanisms to facilitate queries for investigating associations among these entities. At the core of the DietRx is the data of 21207 positive/negative food-disease associations for 1781 food entities belonging to 24 categories (vegetable, plant, fruit, meat & egg, herbs & spices etc.) text-mined from biomedical literature (27 million MEDLINE abstracts) using state-of-the-art named entity recognition tools, and a deep learning based relation classification model (Precision=0.87, Recall=0.8, and F1 Score = 0.84) which was trained with significant amount of manually curated data. These data are further interlinked with those involving 6992 food chemicals and 20550 genes, compiled from curated data sources, thereby creating a seamless platform for probing elements central to diet and their health consequences. DietRx facilitates the study of associations among food, disease, chemicals, and genes to enable data-driven inferences to be used for culinary interventions, nutrigenomics insights as well as for drug discovery endeavors.
+</blockquote>
+		</div>
+		<div>
+<img class="img-thumbnail" src={{url_for( 'static', filename='images/how-to/overview/Figure_DietRx_Overview_VIdeo_1.jpg'
+    )}}>
+		</div>
+
+				
+		<hr /><h5 class="container"><strong>DietRx Entities of the Month</strong></h5><hr />
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 card">
+					<div class="card-body">
+						<h5 class="card-title">Ginger</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Food</h6>
+						<p class="card-text">
+							<span class="text-danger">NCBI Taxonomy ID: </span>
+								<a target="_blank" href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4682">{{4682}}
+								<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i>
+							</a>
+							<br>
+							<span class="text-danger">Common Names: </span> Garlic
+							<br>
+							<span class="text-danger">Scientific Name: </span>
+							<span style="font-style: italic;">Allium sativum</span>
+							<br>
+							<span class="text-danger">Category: </span>
+							<span>Herbs and Spices</span>
+							<br>
+						</p>
+						<a href="http://cosylab.iiitd.edu.in/dietrx/get_food?food_id=Plant+ID%3A94328" class="btn btn-primary">Details</a>
+					</div>
+				</div>
+				<div class="col-md-6 card">
+					<div class="card-body">
+						<h5 class="card-title">Interleukin 6</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Gene</h6>
+						<p class="card-text">
+							<span class="text-danger">Entrez Gene ID: </span>
+							<a target="_blank" href="https://www.ncbi.nlm.nih.gov/gene/3569">3569
+							<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i>
+							</a>
+							<br>
+							<span class="text-danger">Official Gene Symbol: </span> IL6
+							<br>
+							<span class="text-danger">Official Gene Name: </span>
+							<span>interleukin 6</span>
+							<br>
+							<span class="text-danger">Organism: </span>
+							<span>Homo sapiens</span>
+							<br>
+						</p>
+						<a href="http://cosylab.iiitd.edu.in/dietrx/get_gene?gene_id=3569" class="btn btn-primary">Details</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 card">
+					<div class="card-body">
+						<h5 class="card-title">Obesity</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Disease</h6>
+						<p class="card-text">
+							<span class="text-danger">Disease ID: </span>
+							<a target="_blank" href="https://meshb.nlm.nih.gov/record/ui?ui=D009765">MESH:D009765
+								<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i>
+							</a>
+							<br>
+							<span class="text-danger">Disease Name: </span> Obesity
+							<br>
+							<span class="text-danger">Synonyms: </span>
+							<span>Leanness, Included</span>
+							<br>
+							<span class="text-danger">Category: </span>
+							<span>Nutrition disorder, Signs and symptoms</span>
+							<br>
+						</p>
+						<a href="http://cosylab.iiitd.edu.in/dietrx/get_disease?disease_id=MESH%3AD009765" class="btn btn-primary">Details</a>
+					</div>
+				</div>
+				<div class="col-md-6 card">
+					<div class="card-body">
+						<h5 class="card-title">Flavanone</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Chemical</h6>
+						<p class="card-text">
+							<span class="text-danger">PubChem CID: </span>
+							<a target="_blank" href="https://pubchem.ncbi.nlm.nih.gov/compound/10251">10251
+								<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i>
+							</a>
+							<br>
+							<span class="text-danger">Common Name: </span> Flavanone
+							<br>
+							<span class="text-danger">IUPAC Name: </span>
+							<span>2-phenyl-2,3-dihydrochromen-4-one</span>
+							<br>
+							<br>
+						</p>
+							<a href="http://cosylab.iiitd.edu.in/dietrx/get_chemical?pubchem_id=10251" class="btn btn-primary">Details</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="search" class="pt-4">
+			<hr />
+			<h5 class="container">
+				<span>
+					<img src="static/images/search_logo.png" class="d-inline-block align-top" style="max-width: 1em; max-height: 1em;">
+				</span>
+				<strong>&nbsp;&nbsp;DietRx Search</strong>
+			</h5>
+			<hr />
+
+			<ul class="nav nav-tabs nav-fill">
+				<li class="nav-item">
+					<a class="nav-link active" data-toggle="tab" href="#entity-name-search" role="tab" aria-controls="entity-name-search"
+					aria-selected="true">Entity Identifier Search</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#chemical-advanced-search" role="tab" aria-controls="chemical-advanced-search"
+					aria-selected="false">Chemical Advanced Search</a>
+				</li>
+			</ul>
+
+			<div class="tab-content pt-4 ml-2 mr-2" id="myTabContent">
+				<div class="tab-pane fade show active" id="entity-name-search" role="tabpanel" aria-labelledby="home-tab">
+					 {% include 'food/food_search.html' %}
+					 {% include 'disease/disease_search.html' %} 
+					 {% include 'gene/gene_search.html' %}
+					{% include 'chemical/chemical_search.html' %}
+				</div>
+				<div class="tab-pane fade" id="chemical-advanced-search" role="tabpanel" aria-labelledby="profile-tab">
+ 					{% include 'chemical/chemical_advanced_search.html' %}
+				</div>
+			</div>
+			
+		</div>
+
+		
+		<div id="analytics">
+		<hr /><hr /><h5 class="container"><strong>DietRx Analytics</strong></h5><hr />
+			<div class="embed-responsive embed-responsive-16by9 border">
+				<iframe class="embed-responsive-item" src="http://cosylab.iiitd.edu.in/dietrx/analytics/" allowfullscreen></iframe>
+			</div>
+			<a class="btn btn-primary mt-2" href="http://cosylab.iiitd.edu.in/dietrx/analytics/">Go To DietRx Analytics</a>
+		</div>
+	</div>
+{% endblock %}

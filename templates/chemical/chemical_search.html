@@ -1,0 +1,23 @@
+<div id="search_chemical">
+	<!-- <h5 class="container">
+		<hr>
+		<span>
+			<img src="static/images/search_logo.png" class="d-inline-block align-top" style="max-width: 1em; max-height: 1em;">
+		</span>
+		<strong>&nbsp;&nbsp;Chemical Search</strong>
+		<hr>
+		Chemical Search
+	</h5> -->
+	<h5>Chemical Search</h5>
+	<form class="input-group mb-3 search-form">
+		<div class="input-group">
+			<input href="#chemical-results" table="chemical" type="text" name="query" class="form-control query-field" id="chemical_query"
+			 placeholder="Enter any chemical's common name or IUPAC name (e.g. Quercetin)">
+			<div class="input-group-btn input-group-append">
+				<input role="button" class="btn btn-primary" type="submit" type="submit">Search</input>
+			</div>
+		</div>
+	</form>
+	<a href="{{url_for('view_all', type='chemical')}}" target="_blank">Browse All Chemicals</a>
+	<div id="chemical-results"></div>
+</div>

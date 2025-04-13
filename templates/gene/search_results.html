@@ -1,0 +1,25 @@
+<hr />
+<h5 class="container"><strong>Search results</strong></h5>
+<hr />
+<div class="row">
+	<div class="col-md-12">
+		<h5> Found {{results.hits.total}} results for your query</h5>
+		
+		
+		<table id="result_table" class="table table-striped">
+			<thead>
+				<th>Gene Symbol</th>
+				<th>Gene Name</th>
+			</thead>
+			<tbody>
+				{% for result in results.hits.hits %}
+					<tr>
+						<td><a href="{{ url_for('get_gene', gene_id=result._id) }}">{{result._source.gene_symbol}}</a></td>
+						<td>{{result._source.gene_name}}</td>
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+		{% include 'common/pagination_links.html' %}
+	</div>
+</div>

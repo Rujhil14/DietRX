@@ -1,0 +1,50 @@
+{% extends 'common/index.html' %}
+
+{% block extra_head %}
+<script type="text/javascript">
+    $(document).ready(function(){
+        // Pass the results and columnsDef from Flask to JavaScript
+        var data = {{ results | tojson }};
+        var columnsDef = {{ columnsDef | tojson }};
+        
+        // Initialize DataTable
+        $('#results_table').DataTable({
+            'data': data,
+            'columns': columnsDef,
+            'deferRender': true,
+            'scroller': true,
+            'scrollCollapse': true,
+            'dom': 'lBfrtip',
+            'buttons': [
+                { 
+                    extend: 'csv', 
+                    className: 'mt-2 btn btn-danger fas fa-download', 
+                    text: 'Download', 
+                    exportOptions: { orthogonal: 'export' }
+                }
+            ],
+            "order": [[ {{ sortidx }}, 'asc' ]]
+        });
+    });
+</script>
+{% endblock %}
+
+{% block body %}
+<div class="container mt-3" id="page">
+    <div class="row">
+        <div class="col-md-6">
+            <h4 class="text-success">Displaying all {{ type }} entities:</h4>
+        </div>
+    </div>
+
+    <table class="table table-striped table-bordered table-sm no-footer" id="results_table" role="grid">
+        <thead class="thead">
+            <tr>
+                {% for field_name in columnsDef %}
+                    <th>{{ field_name.title }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+    </table>
+</div>
+{% endblock %}

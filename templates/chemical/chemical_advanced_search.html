@@ -1,0 +1,47 @@
+<div class="row mt-3">
+	<div class="col-md-5">
+		<form id="chemical-search-form" action = "{{ url_for('chemical_search') }}" method = "GET">
+
+			<!-- <div class="form-group">
+				{{chemical_search_form.common_name.label}}
+				{{chemical_search_form.common_name(class_="form-control", placeholder="Common Name") }}
+			</div>
+
+			<div class="form-group">
+				{{chemical_search_form.iupac_name.label}} 
+				{{chemical_search_form.iupac_name(class_="form-control", placeholder="IUPAC Name") }}
+			</div> -->
+			
+			<div class="form-group">
+				{{chemical_search_form.pubchem_id.label}}
+				{{chemical_search_form.pubchem_id(class_="form-control", placeholder="PubChem ID") }}
+			</div>
+
+			<div class="form-group">
+				{{chemical_search_form.functional_group.label}}
+				{{chemical_search_form.functional_group(class_="form-control", placeholder="Functional Group") }}
+			</div>
+
+
+			{% for form_field in [chemical_search_form.molecular_weight, chemical_search_form.hba_count, chemical_search_form.hbd_count, chemical_search_form.num_rings, chemical_search_form.num_rotatablebonds, chemical_search_form.number_of_aromatic_bonds, chemical_search_form.alogp] %}
+
+			<div class="form-group">
+				{{form_field.label}}
+				{{form_field(class_="form-control")}}
+			</div>
+
+			{% endfor %}
+
+			<div>
+				{{chemical_search_form.smiles(hidden=True) }}
+			</div>					
+			<div>
+				{{chemical_search_form.search(class_="btn btn-primary btn-block mt-3") }}
+			</div>
+		</form>
+	</div>
+	<div class="col-md-1"></div>
+	<div class="col-md-6">
+		<div class="pt-1" id="jsme_container_search" ></div>
+	</div>
+</div>

@@ -1,0 +1,119 @@
+{% if type == 'food' %}
+  var columnsDef = [
+  {
+    "title": "NCBI Tax ID",
+    "render": function (data, type, row, meta) {
+      if (data == 'None') {
+        return 'None';
+      } else {
+        return '<a target="_blank" style="white-space:nowrap;" href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=' + data + '" >' + data + '<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i></a>';
+      };
+    }
+  },
+
+  {
+    "title": "Food Category" },
+  { "title": "Scientific Name" },
+  { "title": "Common Names" },
+  { "title": "Explore", 
+    "render": function (data, type, row, meta) {
+        if (data == 'None') {
+          return 'None';
+        } else {
+          return '<a target="_blank" style="white-space:nowrap;" class="btn btn-primary" href="' + data + '">Explore' + '</a>';
+        };
+      }
+    },
+  ];
+
+{% elif type == 'disease' %}
+  var columnsDef = [
+  {
+    "title": "Disease ID",
+        "render": function (data, type, row, meta) {
+          if (isNaN(data.substr(5,1))) {
+            return '<a target="_blank" style="white-space:nowrap;" href="https://meshb.nlm.nih.gov/record/ui?ui=' + data.substr(5) + '" >' + data + '<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i></a>';            
+          } else{
+            return '<a target="_blank" style="white-space:nowrap;" href="https://www.omim.org/entry/' + data.substr(5) + '" >' + data + '<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i></a>';
+          };
+    }
+  },
+  { "title": "Disease Category" },
+  { "title": "Disease Name" },
+  { 
+    "title": "Disease Synonyms",
+    "render": $.fn.dataTable.render.ellipsis(100),
+  },
+  { "title": "Explore", 
+    "render": function (data, type, row, meta) {
+        if (data == 'None') {
+          return 'None';
+        } else {
+          return '<a target="_blank" style="white-space:nowrap;" class="btn btn-primary" href="' + data + '">Explore' + '</a>';
+        };
+      }
+    },
+  ];
+
+{% elif type == 'gene' %}
+  var columnsDef = [
+  {
+    "title": "Gene ID",
+        "render": function (data, type, row, meta) {
+            return '<a target="_blank" style="white-space:nowrap;" href="https://www.ncbi.nlm.nih.gov/gene/' + data + '" >' + data + '<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i></a>';            
+    }
+  },
+  { "title": "Gene Symbol" },
+  { 
+    "title": "Gene Name",
+    "render": $.fn.dataTable.render.ellipsis(50)
+  },
+  { 
+    "title": "Gene Other Symbols",
+    "render": $.fn.dataTable.render.ellipsis(50),
+  },
+  { 
+    "title": "Gene Synonyms",
+    "render": $.fn.dataTable.render.ellipsis(50),
+  },
+  { "title": "Explore", 
+    "render": function (data, type, row, meta) {
+        if (data == 'None') {
+          return 'None';
+        } else {
+          return '<a target="_blank" style="white-space:nowrap;" class="btn btn-primary" href="' + data + '">Explore' + '</a>';
+        };
+      }
+    },
+  ];
+{% elif type == 'chemical' %}
+ var columnsDef = [
+  {
+    "title": "PubChem ID",
+        "render": function (data, type, row, meta) {
+          return '<a target="_blank" style="white-space:nowrap;" href="https://pubchem.ncbi.nlm.nih.gov/compound/' + data + '" >' + data + '<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i></a>';            
+    }
+  },
+  { 
+    "title": "Common Name",
+    "render": $.fn.dataTable.render.ellipsis(50)
+  },
+  { 
+    "title": "Functional Group(s)",
+    "render": $.fn.dataTable.render.ellipsis(50),
+  },
+  { 
+    "title": "SMILES",
+    "render": $.fn.dataTable.render.ellipsis(20),
+  },  
+  { "title": "Explore", 
+    "render": function (data, type, row, meta) {
+        if (data == 'None') {
+          return 'None';
+        } else {
+          return '<a target="_blank" style="white-space:nowrap;" class="btn btn-primary" href="' + data + '">Explore' + '</a>';
+        };
+      }
+    },
+  ];
+{% endif %}

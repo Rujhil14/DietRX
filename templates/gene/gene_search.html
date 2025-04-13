@@ -1,0 +1,26 @@
+<div id="search_gene" class="pb-4">
+	
+	<!-- <h5 class="container">
+		<hr />
+		<span>
+			<img src="static/images/search_logo.png" class="d-inline-block align-top" style="max-width: 1em; max-height: 1em;">
+		</span>
+		<strong>&nbsp;&nbsp;Gene Search</strong>
+		Gene Search
+		<hr />
+	</h5> -->
+	<h5>Gene Search</h5>
+	
+	<form class="input-group mb-3 search-form">
+		<div class="input-group">
+			<input href="#gene-results" table="gene" type="text" name="query" class="form-control query-field" id="gene_query"
+			placeholder="Enter any gene's name or symbol (e.g. TNF)">
+			<div class="input-group-btn input-group-append">
+				<input role="button" class="btn btn-primary" type="submit" type="submit">Search</input>
+			</div>
+		</div>
+	</form>
+	<a href="{{url_for('view_all', type='gene')}}" target="_blank">Browse All Genes</a>
+
+	<div id="gene-results"></div>
+</div>

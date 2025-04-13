@@ -1,0 +1,42 @@
+            <div class="modal-header">
+                <h4 class="modal-title text-capitalize" id="myModalLabel">Associations between {{result.disease.disease_name}} & {{result.gene.gene_symbol}}</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <strong>{{result.via_chemicals|count}} Chemical(s) linked with {{result.disease.disease_name}} & {{result.gene.gene_symbol}}</strong>
+                    <br>
+                    <div style="max-height: 400px; overflow: auto;">
+                        <table class="table table-hover table-striped table-sm">
+                            <thead>
+                                <tr>
+                                    <th>PubChem ID</th>
+                                    <th>Common Name</th>
+                                    <th>Functional Group</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for chemical in result.via_chemicals %}
+                                    <tr>
+                                        <td style="white-space:nowrap;">
+                                            <a target="_blank" href="https://pubchem.ncbi.nlm.nih.gov/compound/{{chemical.pubchem_id}}">{{ chemical.pubchem_id }}<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i></a>
+                                        </td>
+                                        <td><a target="_blank" href="{{url_for('get_chemical', pubchem_id=chemical.pubchem_id)}}">{{ chemical.common_name or chemical.iupac_name }}</a></td>
+                                    </td>
+                                    <td>
+                                        {{ chemical.functional_group }}
+                                    </td>
+                                </tr>
+                            {% else %} No Chemical(s) linked with {{result.disease.disease_name}} & {{result.gene.gene_symbol}} were found.
+                                <hr />
+                            {% endfor %}
+                            {% if result.association.reference %}
+                                This association was curated from {{result.association.reference}}
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>

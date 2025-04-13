@@ -1,0 +1,187 @@
+643441
+ OpenBabel06101807152D
+
+ 34 35  0  0  0  0  0  0  0  0999 V2000
+    5.1350    0.5950    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5369   -0.9050    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2690   -3.9050    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4030    0.5950    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8671    3.5950    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2690   -0.9050    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1350   -1.4050    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4030   -1.4050    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1350   -2.4050    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1350    1.5950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2690    3.0950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2690    0.0950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2690   -2.9050    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4030   -2.4050    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0010   -0.9050    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2690    2.0950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0010    2.0950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1350    3.5950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0010    3.0950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4030    3.5950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6720   -2.7150    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660   -2.7150    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3110   -1.4419    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5380   -0.5950    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6910   -0.3681    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320    1.7850    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5380    1.7850    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1350    4.2150    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7130    4.1319    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660    3.9050    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0930    3.0581    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000   -1.2150    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8059   -4.2150    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8671    4.2150    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1 10  1  0  0  0  0
+  1 12  1  0  0  0  0
+  2  8  1  0  0  0  0
+  2 32  1  0  0  0  0
+  3 13  1  0  0  0  0
+  3 33  1  0  0  0  0
+  4 12  2  0  0  0  0
+  5 19  1  0  0  0  0
+  5 34  1  0  0  0  0
+  6  7  1  0  0  0  0
+  6  8  2  0  0  0  0
+  6 12  1  0  0  0  0
+  7  9  2  0  0  0  0
+  7 15  1  0  0  0  0
+  8 14  1  0  0  0  0
+  9 13  1  0  0  0  0
+  9 21  1  0  0  0  0
+ 10 16  2  0  0  0  0
+ 10 17  1  0  0  0  0
+ 11 16  1  0  0  0  0
+ 11 18  2  0  0  0  0
+ 11 20  1  0  0  0  0
+ 13 14  2  0  0  0  0
+ 14 22  1  0  0  0  0
+ 15 23  1  0  0  0  0
+ 15 24  1  0  0  0  0
+ 15 25  1  0  0  0  0
+ 16 26  1  0  0  0  0
+ 17 19  2  0  0  0  0
+ 17 27  1  0  0  0  0
+ 18 19  1  0  0  0  0
+ 18 28  1  0  0  0  0
+ 20 29  1  0  0  0  0
+ 20 30  1  0  0  0  0
+ 20 31  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+643441
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+345
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+5
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+3
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+3
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADccBwOAAAAAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAAAABQAAAGgAACAAADASAmAAyDoAABgCIAiDSCAACCAAkIAAAiAEGCMgMJzaGNRqCe2Cl4BUIuQeI7LzOoAABCAAYAABAAAIQADAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+(3-hydroxy-5-methyl-phenyl) 2,4-dihydroxy-6-methyl-benzoate
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+2,4-dihydroxy-6-methylbenzoic acid (3-hydroxy-5-methylphenyl) ester
+
+>  <PUBCHEM_IUPAC_NAME>
+(3-hydroxy-5-methylphenyl) 2,4-dihydroxy-6-methylbenzoate
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+(3-methyl-5-oxidanyl-phenyl) 2-methyl-4,6-bis(oxidanyl)benzoate
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+2,4-dihydroxy-6-methyl-benzoic acid (3-hydroxy-5-methyl-phenyl) ester
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C15H14O5/c1-8-3-10(16)6-12(4-8)20-15(19)14-9(2)5-11(17)7-13(14)18/h3-7,16-18H,1-2H3
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+LRMGCIMCOOHPQA-UHFFFAOYSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+3.5
+
+>  <PUBCHEM_EXACT_MASS>
+274.084
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C15H14O5
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+274.272
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+CC1=CC(=CC(=C1)OC(=O)C2=C(C=C(C=C2C)O)O)O
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+CC1=CC(=CC(=C1)OC(=O)C2=C(C=C(C=C2C)O)O)O
+
+>  <PUBCHEM_CACTVS_TPSA>
+87
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+274.084
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+20
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+225
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+10  16  8
+10  17  8
+11  16  8
+11  18  8
+13  14  8
+17  19  8
+18  19  8
+6  7  8
+6  8  8
+7  9  8
+8  14  8
+9  13  8
+
+$$$$

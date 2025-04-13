@@ -1,0 +1,20 @@
+<div style="max-height: 400px; overflow: auto;">
+    <table class="table table-hover table-sm" >
+        <thead>
+            <tr>
+                <th>PubChem ID</th>
+                <th>Common Name</th>
+                <th>Functional Group</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for molecule in result.via_chemicals %}
+            <tr>
+                <td><a target="_blank" href="https://pubchem.ncbi.nlm.nih.gov/compound/{{molecule.pubchem_id}}">{{molecule.pubchem_id}}</a></td>
+                <td><a target="_blank" href="{{url_for('get_chemical', pubchem_id=molecule.pubchem_id)}}" class="btn btn-primary btn-sm">{{molecule.common_name or molecule.iupac_name}}</a></td>
+                <td>{{molecule.functional_group }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

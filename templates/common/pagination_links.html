@@ -1,0 +1,25 @@
+<div class="pt-4">
+	<span class="current">
+		Page {{ page_number }} of {{ total_pages }}
+	</span>
+
+	<br><br>
+	
+	<div class="pagination">
+		<nav aria-label="Page navigation example">
+			<ul class="pagination">
+				{% if has_prev %}
+				<li class="page-item"><a class="page-link" href="{{ prev_url }}">Previous</a></li>
+				<li class="page-item"><a class="page-link" href="{{ first_url }}">First</a></li>
+				{% endif %}
+
+				{% if has_next %}
+				<li class="page-item"><a class="page-link" href="{{ next_url }}">Next</a></li>
+				<li class="page-item"><a class="page-link" href="{{ last_url }}">Last</a></li>
+				{% endif %}
+
+			</ul>
+		</nav>
+
+	</div>
+</div>

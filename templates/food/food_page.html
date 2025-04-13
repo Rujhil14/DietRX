@@ -1,0 +1,86 @@
+{% extends 'common/index.html' %}
+{% block body %}
+	<div class="container pt-4">
+		
+		<hr />
+		<h5 class="container"><strong>{{ food.display_name }}</strong></h5>
+		<hr />
+		<div class="row mb-4">
+			<div class="col-md-12">
+				
+				<p class="card-text">
+					<span class="text-danger">NCBI Taxonomy ID: </span> <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id={{food.tax_id}}">{{ food.tax_id|upper }}<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i></a><br>
+					<span class="text-danger">Common Names: </span> {{ food.common_names | replace(';', ',') | title }}<br>
+					<span class="text-danger">Scientific Name: </span> <span style="font-style: italic;">{{ food.scientific_name }}</span><br>
+					<span class="text-danger">Category: </span> <span>{{ food.food_category|title }}</span><br>
+				</p>
+			</div>
+		</div>
+		<hr />
+		<h5 class="container"><strong>DietRx Associations for {{ food.display_name }}</strong></h5>
+		<hr />
+		<img src="{{ url_for('static', filename='images/illustrations/food.JPG')}}" class="img-fluid mb-5 pt-4" alt="Responsive image">
+		<div class="row">
+			<div class="col-md-12">
+				
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					
+					{% if subcategory == 'disease' %}
+						<li class="nav-item">
+							<a class="nav-link active" id="disease-tab" data-toggle="tab" href="#disease" role="tab" aria-controls="disease" aria-selected="true">Associated & Inferred Diseases</a>
+						</li>
+						{% elif not 'disease' in subcategory_that_exist %}
+					{% else %}
+						<li class="nav-item">
+							<a class="nav-link" id="disease-tab" href="{{url_for('get_food', food_id=food.food_id ,subcategory='disease')}}">Associated & Inferred Diseases</a>
+						</li>
+					{% endif %}
+					{% if subcategory == 'chemical' %}
+						<li class="nav-item">
+							<a class="nav-link active" id="chemical-tab" data-toggle="tab" href="#chemical" role="tab" aria-controls="chemical" aria-selected="true">Constituent Chemicals</a>
+						</li>
+						{% elif not 'chemical' in subcategory_that_exist %}
+					{% else %}
+						<li class="nav-item">
+							<a class="nav-link" id="chemical-tab" href="{{url_for('get_food', food_id=food.food_id ,subcategory='chemical')}}">Constituent Chemicals</a>
+						</li>
+					{% endif %}
+					
+					{% if subcategory == 'gene' %}
+						<li class="nav-item">
+							<a class="nav-link active" id="gene-tab" data-toggle="tab" href="#gene" role="tab" aria-controls="gene" aria-selected="true">Inferred Gene Associations</a>
+						</li>
+						{% elif 'gene' in subcategory_that_exist %}
+						<li class="nav-item">
+							<a class="nav-link" id="gene-tab" href="{{url_for('get_food', food_id=food.food_id ,subcategory='gene')}}">Inferred Gene Associations</a>
+						</li>
+					{% else %}
+					{% endif %}
+					
+					
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					{% if subcategory == 'disease' %}
+						<div class="tab-pane fade show active" id="disease" role="tabpanel" aria-labelledby="disease-tab">
+							{% include 'food/food_disease.html' %}
+							
+						</div>
+						{% elif subcategory == 'gene' %}
+						<div class="tab-pane fade show active" id="gene" role="tabpanel" aria-labelledby="gene-tab">
+							{% include 'food/food_gene.html' %}
+						</div>
+						{% elif subcategory == 'chemical' %}
+						<div class="tab-pane fade show active" id="chemical" role="tabpanel" aria-labelledby="chemical-tab">
+							
+							{% include 'food/food_chemical.html' %}
+							
+						</div>
+					{% endif %}
+				</div>
+				
+			</div>
+		</div>
+		
+		
+	</div>
+{% endblock %}

@@ -1,0 +1,135 @@
+131750887
+ OpenBabel06101807152D
+
+ 15 15  0  0  1  0  0  0  0  0999 V2000
+    4.0823   -1.3815    0.0000 S   0  0  3  0  0  0  0  0  0  0  0  0
+    4.8913   -0.7937    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4013    1.8799    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0823   -2.3815    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000    0.8618    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5823    0.1573    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    3.2733   -0.7937    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5823    0.1573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9945    0.9664    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9699    0.0604    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7069   -0.5415    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9633   -1.3307    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1888    0.2862    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5175    0.7739    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0368    2.3815    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  4  2  0  0  0  0
+  1  7  1  0  0  0  0
+  2  8  1  0  0  0  0
+  3  9  1  0  0  0  0
+  3 15  1  0  0  0  0
+  5  9  2  0  0  0  0
+  6  7  1  0  0  0  0
+  6  8  1  0  0  0  0
+  6  9  1  0  0  0  0
+  6 10  1  1  0  0  0
+  7 11  1  0  0  0  0
+  7 12  1  0  0  0  0
+  8 13  1  0  0  0  0
+  8 14  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+131750887
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+156
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+5
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+1
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+1
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADcYBgMABgAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAGgQACAAADQCEwACACAAAAgIIAACQCEBAAAAAAAAAAAEAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+(4R)-1-oxodithiolane-4-carboxylic acid
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+(4R)-1-oxo-4-dithiolanecarboxylic acid
+
+>  <PUBCHEM_IUPAC_NAME>
+(4R)-1-oxodithiolane-4-carboxylic acid
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+(4R)-1-oxidanylidene-1,2-dithiolane-4-carboxylic acid
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+(4R)-1-ketodithiolane-4-carboxylic acid
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C4H6O3S2/c5-4(6)3-1-8-9(7)2-3/h3H,1-2H2,(H,5,6)/t3-,9?/m1/s1
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+WKCDMZVXQHXDPX-ZMQIUWNVSA-N
+
+>  <PUBCHEM_EXACT_MASS>
+165.976
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C4H6O3S2
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+166.209
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+C1C(CS(=O)S1)C(=O)O
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+C1[C@H](CS(=O)S1)C(=O)O
+
+>  <PUBCHEM_CACTVS_TPSA>
+98.9
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+165.976
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+9
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+1
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+1
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+1
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+1  7  3
+6  9  6
+
+$$$$

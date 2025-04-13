@@ -1,0 +1,155 @@
+10910114
+ OpenBabel06101807152D
+
+ 19 20  0  0  0  0  0  0  0  0999 V2000
+    6.2619   -0.4113    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9674    1.5501    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6783   -1.2161    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320    0.0887    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320   -0.9113    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6783    0.3934    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2619   -0.4113    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660    0.5887    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660   -1.4113    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000    0.0887    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000   -0.9113    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9889    1.3439    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8709   -1.8054    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660    1.2087    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660   -2.0313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4631    0.3987    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4631   -1.2213    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5749    1.8054    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5719   -0.9483    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  7  1  0  0  0  0
+  1 19  1  0  0  0  0
+  2 12  2  0  0  0  0
+  3  5  1  0  0  0  0
+  3  7  1  0  0  0  0
+  3 13  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+  4  8  2  0  0  0  0
+  5  9  2  0  0  0  0
+  6  7  2  0  0  0  0
+  6 12  1  0  0  0  0
+  8 10  1  0  0  0  0
+  8 14  1  0  0  0  0
+  9 11  1  0  0  0  0
+  9 15  1  0  0  0  0
+ 10 11  2  0  0  0  0
+ 10 16  1  0  0  0  0
+ 11 17  1  0  0  0  0
+ 12 18  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+10910114
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+185
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+2
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+2
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+1
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADcYByIABAAAAAAAAAAAAAAAAAAWAAAAAwAAAAAAAAAFgB8AAAHgQQAAAADAih3gIwwfLJkASoAyxyxAGC0iAlAiAImTEwZNgIIPrAlZGEIYhgkADIyUcciMCOgAAAAAACAAAAAAAAAAQAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+2-sulfanyl-1H-indole-3-carbaldehyde
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+2-mercapto-1H-indole-3-carboxaldehyde
+
+>  <PUBCHEM_IUPAC_NAME>
+2-sulfanyl-1H-indole-3-carbaldehyde
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+2-sulfanyl-1H-indole-3-carbaldehyde
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+2-mercapto-1H-indole-3-carbaldehyde
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C9H7NOS/c11-5-7-6-3-1-2-4-8(6)10-9(7)12/h1-5,10,12H
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+ITVZJCAUYSGPDZ-UHFFFAOYSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+2
+
+>  <PUBCHEM_EXACT_MASS>
+177.025
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C9H7NOS
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+177.221
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+C1=CC=C2C(=C1)C(=C(N2)S)C=O
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+C1=CC=C2C(=C1)C(=C(N2)S)C=O
+
+>  <PUBCHEM_CACTVS_TPSA>
+33.9
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+177.025
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+12
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+5
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+10  11  8
+3  5  8
+3  7  8
+4  5  8
+4  6  8
+4  8  8
+5  9  8
+6  7  8
+8  10  8
+9  11  8
+
+$$$$

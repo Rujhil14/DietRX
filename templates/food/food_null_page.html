@@ -1,0 +1,20 @@
+{% extends 'common/index.html' %}
+{% block body %}
+	<div class="container pt-4">
+		
+		<hr />
+		<h5 class="container"><strong>{{ food.display_name }}</strong></h5>
+		<hr />
+		<div class="row">
+			<div class="col-md-12">
+				
+				<p class="card-text">
+					<span class="text-danger">NCBI Taxonomy ID: </span> <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id={{food.tax_id}}">{{ food.tax_id|upper }}<i class="fas fa-external-link-alt" style="vertical-align: top; font-size: 12px;"></i></a><br>
+					<span class="text-danger">Common Names: </span> {{ food.common_names | replace(';', ',') | title }}<br>
+					<span class="text-danger">Scientific Name: </span> <span style="font-style: italic;">{{ food.scientific_name }}</span><br>
+					<span class="text-danger">Category: </span> <span>{{ food.food_category|title }}</span><br>
+				</p>
+			</div>
+		</div>
+	</div>
+{% endblock %}

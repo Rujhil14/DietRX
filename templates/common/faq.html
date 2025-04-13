@@ -1,0 +1,409 @@
+{% extends 'common/index.html' %} {% block body %}
+<div class="container">
+  <div class="jumbotron text-center" style="margin: 0.80em; padding: 0.80em;">
+    <h3>
+      <strong>DietRx FAQs</strong>
+    </h3>
+    <p>Contact us if you have more questions</p>
+  </div>
+  <hr />
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#1" aria-expanded="true">
+            Q1: What is DietRx?
+          </button>
+        </h5>
+      </div>
+      <div id="1" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          <br>
+          <div>
+            <img src={{ url_for( 'static', filename='images/illustrations/overview.jpg' )}} height=450 width=600 style="display: block; margin-left: auto; margin-right: auto; border: LightGray 3px solid;">
+          </div>
+          <br>DietRx provides a platform for exploring health impacts of dietary ingredients by integrating interrelationships among food
+          and key molecular agents. The resource assimilates dietary factors (food and chemicals), their health consequences (diseases)
+          and genetic mechanisms to facilitate queries for investigating associations among these entities
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#2" aria-expanded="false">
+            Q2: What are the entities represented in DietRx?
+          </button>
+        </h5>
+      </div>
+      <div id="2" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          DietRx comprises of four entities: Food, Disease, Chemical and Gene. The resource integrates evidence of associations among
+          these entities and facilitates in drawing inferences relating them.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#3" aria-expanded="false">
+            Q3: What types of queries are processed by DietRx?
+          </button>
+        </h5>
+      </div>
+      <div id="3" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          DIetRx facilitates an elastic search to query food, disease, chemical and gene. Each of these could be flexibly queried using
+          standard/scientific/common symbols/names. The search results page for each of these entities provides
+          all relevant associations with the remaining entities (if available), and the tables themselves are searchable.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingSix">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#4" aria-expanded="false">
+            Q4: What are the food entities and food categories represented in DietRx?
+          </button>
+        </h5>
+      </div>
+      <div id="4" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          DietRx includes data of {{ stats.fd_foods }} foods belonging to {{stats.fcats}} food categories (plant, fruit, meat etc.).
+          <br>
+          <br>Click
+          <a href="{{ url_for('view_all', type='food') }}" target="_blank">here</a> to view all the foods present in DietRx.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#5" aria-expanded="false">
+            Q5: What are the chemicals represented in DietRx?
+          </button>
+        </h5>
+      </div>
+      <div id="5" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          DietRx includes data of {{ stats.chems }} chemicals from {{ stats.fc_foods }} foods and were compiled from <a href="http://kanaya.naist.jp/KNApSAcK/" target="_blank">KNApSAcK</a>, <a href="http://phenol-explorer.eu/" target="_blank">PhenolExlorer</a>,
+<a href="https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/nutrient-data-laboratory/docs/sr21-home-page/"
+  target="_blank">USDA</a>,  <a href="https://phytochem.nal.usda.gov/phytochem/search" target="_blank">DUKE</a>, and <a href="http://foodb.ca/" target="_blank">FooDB</a>.
+          <br>
+          <br>Click
+          <a href="{{ url_for('view_all', type='chemical')}}" target="_blank">here</a> to view all the chemicals present in DietRx.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingFour">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#6" aria-expanded="false">
+            Q6: What are the genes represented in DietRx?
+          </button>
+        </h5>
+      </div>
+      <div id="6" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          DietRx includes data of 20550 genes.
+          <br>
+          <br>Click
+          <a href="{{ url_for('view_all', type='gene')}}" target="_blank">here</a> to view all the genes present in DietRx.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingFive">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#7" aria-expanded="false">
+            Q7: What are the diseases represented in DietRx?
+          </button>
+        </h5>
+      </div>
+      <div id="7" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          DietRx uses the MEDIC disease vocabulary from
+          <a href="http://ctdbase.org/downloads/#alldiseases" target="_blank">CTD (The Comparative Toxicogenomics Database).</a>
+          MEDIC is a modified subset of U.S. National Library of Medicine's
+          <a href="http://www.nlm.nih.gov/mesh/meshhome.html" target="_blank">MeSH® (Medical Subject Headings)</a> terms present under the "Disease" [C] branch, combined with genetic disorders
+          from the
+          <a href="http://www.omim.org/" target="_blank">OMIM® (Online Mendelian Inheritance in Man®)</a> database.
+<br>
+<br>Click
+<a href="{{ url_for('view_all', type='disease')}}" target="_blank">here</a> to view all the diseases present in DietRx.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingFive">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#8" aria-expanded="false">
+            Q8: What are the disease categories represented in DietRx?
+          </button>
+        </h5>
+      </div>
+      <div id="8" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          DietRx uses the MEDIC-Slim categorization of diseases, under which a MEDIC disease can belong to multiple Slim categories.
+          More info can be found
+          <a href="http://ctdbase.org/downloads/#alldiseases" target="_blank">here</a>.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingFive">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#9" aria-expanded="false">
+            Q9: How were the data for food-disease-chemical-gene associations compiled?
+          </button>
+        </h5>
+      </div>
+      <div id="9" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          The data of food-disease associations was text-mined from biomedical literature. Food-chemical associations were curated from 
+          <a href="http://kanaya.naist.jp/KNApSAcK/" target="_blank">KNApSAcK</a>, <a href="http://phenol-explorer.eu/" target="_blank">PhenolExlorer</a>, 
+          <a href="https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/nutrient-data-laboratory/docs/sr21-home-page/" 
+ target="_blank">USDA</a>,
+<a href="https://phytochem.nal.usda.gov/phytochem/search" target="_blank">DUKE</a>, and
+<a href="http://foodb.ca/" target="_blank">FooDB</a>. Disease-Chemical and Chemical-Gene associations were curated from
+<a href="http://ctdbase.org/" target="_blank">CTD (The Comparative Toxicogenomics Database)</a>.
+ Disease-Gene associations were obtained through
+<a href="http://www.disgenet.org/" target="_blank">DisGeNET</a>. Further, we used one-hop-relations to infer associations between the entities.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingEight">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#10" aria-expanded="false">
+            Q10: What do inferred associations mean?
+          </button>
+        </h5>
+      </div>
+      <div id="10" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+ An entity 'A' may be linked to another entity 'B' directly or through some other entity 'C'. Inferring associations between
+'A' and 'B' involves traversing the association path from 'A' to 'C' and from 'C' to 'B'.
+<br>
+<br>For example: Food-Gene associations may be inferred via 'Disease Terms' or via 'Chemicals'. The former refers to an indirect
+association in which the food is reported to be associated with a disease term which is further linked with the gene. And
+the latter refers to inferred association in which a chemical reported to be found in the food is linked with the gene.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingEight">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#11" aria-expanded="false">
+            Q11: What do positive/negative food-disease associations refer to?
+          </button>
+        </h5>
+      </div>
+      <div id="11" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+Positive food-disease associations refer to the beneficial effects whereas negative food-disease associations refer to the
+adverse effects of the food against the disease. These associations were obtained through the text mining protocol involving
+Named Entity Recognition for food and disease entities from the corpus of biomedical literature and machine learning models
+built by training manually annotated data.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingEight">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#12" aria-expanded="false">
+            Q12: What do therapeutic or marker/mechanism chemical-disease associations refer to?
+          </button>
+        </h5>
+      </div>
+      <div id="12" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+            Therapeutic associations between chemical-disease refer to the beneficial effects of the chemical against the disease, whereas 
+            marker/mechanism associations refer to situations where it's unknown whether the effects of the chemical are beneficial or adverse.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingEight">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#13" aria-expanded="false">
+            Q13: I am not sure how to spell the name of my food/disease/gene/chemical? How do I find it in DietRx?
+          </button>
+        </h5>
+      </div>
+      <div id="13" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+            DietRx facilitates an elastic search to query food, disease, chemical and gene. The search algorithm is flexible enough to
+            allow for minor variations in spelling while retrieving the most appropriate results.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingEight">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#14" aria-expanded="false">
+            Q14: How can I download data from DietRx?
+          </button>
+        </h5>
+      </div>
+      <div id="14" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+ A "Download" button is provided at the top-left corner of every table. Clicking on it leads to downloads of all the data
+present in the table.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingNine">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#16" aria-expanded="false">
+            Q15: What browsers are supported by DietRx?
+          </button>
+        </h5>
+      </div>
+      <div id="16" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          A modern web browser with JavaScript enabled.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingEleven">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#17" aria-expanded="false">
+            Q17: Does DietRx use cookies?
+          </button>
+        </h5>
+      </div>
+      <div id="17" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          We use cookies to provide the statistics that help us give the best experience for our site.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTen">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#18" aria-expanded="false">
+            Q18: How do I contribute to data?
+          </button>
+        </h5>
+      </div>
+      <div id="18" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          You may contact us at
+          <a href="{{ url_for('contact_us')}}" target="_blank"> bagler+DietRx@iiitd.ac.in</a> for errata along with relevant references.
+          <br>
+          <br> <div>Additonally, you may also fill the following form:</div>
+          <br>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfEF82tmANkdl07DZRkYJO7FriPJK_c9RAevMzGLg2kbjS6wg/viewform?embedded=true"
+            width="1000" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="headingTwelve">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#19" aria-expanded="false">
+            Q19: What is the license under which DietRx is available?
+          </button>
+        </h5>
+      </div>
+      <div id="19" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+            <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />
+          </a>
+          <br />This work is licensed under a
+          <a style="font-weight: bold;" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingThirteen">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#20" aria-expanded="false">
+            Q20: General Disclaimer for users of DietRx:
+          </button>
+        </h5>
+      </div>
+      <div id="20" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          All material on this website is a product of research and is provided for your information only and may not be construed
+          as medical advice or instruction. No action or inaction should be taken based solely on the contents of this information;
+          instead, readers should consult appropriate health professionals on any matter relating to their health and well-being.
+
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingSeventeen">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#21" aria-expanded="false">
+            Q21: Who is the team behind DietRx?
+          </button>
+        </h5>
+      </div>
+      <div id="21" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <th>Name</th>
+              <th>Position</th>
+              <th>Affiliation</th>
+              <th>Contribution</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <a href="{{url_for('contact_us')}}">Ganesh Bagler</a>
+                </td>
+                <td>Project Head</td>
+                <td>Center for Computational Biology, Indraprastha Institute of Information Technology (IIIT-Delhi), New Delhi</td>
+                <td>Idea conception, Project design and management, Database design and implementation </td>
+              </tr>
+              <tr>
+                <td>Rudraksh Tuwani</td>
+                <td>Research Assistant</td>
+                <td>Center for Computational Biology, Indraprastha Institute of Information Technology</td>
+                <td>Data Curation, Database design, Development of DietRx Web Resource, Data Visualisation and Data Analytics</td>
+              </tr>
+              <tr>
+                <td>Neelansh Garg</td>
+                <td>Summer Research Intern</td>
+<td>Center for Computational Biology, Indraprastha Institute of Information Technology</td>
+                <td>Database design, Development of DietRx Web Resource </td>
+              </tr>
+              <tr>
+                <td>Rakhi N K</td>
+                <td>PhD Research Scholar</td>
+                <td>Department of Bioscience and Bioengineering, Indian Institute of Technology Jodhpur, Jodhpur</td>
+                <td>Manual data compilation, Annotation and curation, Quality Check, Analysis</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingFifteen">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#22" aria-expanded="false">
+            Q22: How do I cite DietRx?
+          </button>
+        </h5>
+      </div>
+      <div id="22" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Rudraksh Tuwani†, Neelansh Garg†, Rakhi NK and Ganesh Bagler*, DietRx: An integrative resource to explore interrelationships among foods, diseases, genes and chemicals (2018),
+          <a href="http://cosylab.iiitd.edu.in/dietrx/">http://cosylab.iiitd.edu.in/dietrx/</a> .
+          <br>
+          <br> †Equal contribution *Corresponding Author
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+{% endblock %}

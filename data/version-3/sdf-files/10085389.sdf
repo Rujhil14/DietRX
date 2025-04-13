@@ -1,0 +1,198 @@
+10085389
+ OpenBabel06101807152D
+
+ 36 39  0  0  0  0  0  0  0  0999 V2000
+    6.3198    2.0346    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5877    1.0346    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3198   -0.9654    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4538   -0.4654    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3037   -2.0069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5943   -0.9601    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1858   -0.4654    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4538    0.5346    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4266   -2.4696    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5809   -1.9518    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1858    0.5346    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7320   -0.4537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3198    1.0346    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2018   -2.5346    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0958   -0.9722    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1038   -2.0138    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7394    0.5462    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8623   -0.9473    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8771    1.0526    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000   -0.4409    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0074    0.5590    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1858    2.5346    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4068   -3.0893    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0379   -2.2511    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7228    0.8446    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1994   -3.1546    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6291   -0.6560    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6420   -2.3217    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2786    0.8522    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8577   -1.5673    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8817    1.6726    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4608   -0.7469    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4728    0.8730    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4958    1.9977    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7228    2.8446    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8758    3.0716    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1 13  1  0  0  0  0
+  1 22  1  0  0  0  0
+  2  8  2  0  0  0  0
+  3  4  1  0  0  0  0
+  3  5  2  0  0  0  0
+  3  7  1  0  0  0  0
+  4  6  2  0  0  0  0
+  4  8  1  0  0  0  0
+  5  9  1  0  0  0  0
+  5 14  1  0  0  0  0
+  6 10  1  0  0  0  0
+  6 12  1  0  0  0  0
+  7 11  1  0  0  0  0
+  7 15  2  0  0  0  0
+  8 13  1  0  0  0  0
+  9 10  2  0  0  0  0
+  9 23  1  0  0  0  0
+ 10 24  1  0  0  0  0
+ 11 13  2  0  0  0  0
+ 11 25  1  0  0  0  0
+ 12 17  2  0  0  0  0
+ 12 18  1  0  0  0  0
+ 14 16  2  0  0  0  0
+ 14 26  1  0  0  0  0
+ 15 16  1  0  0  0  0
+ 15 27  1  0  0  0  0
+ 16 28  1  0  0  0  0
+ 17 19  1  0  0  0  0
+ 17 29  1  0  0  0  0
+ 18 20  2  0  0  0  0
+ 18 30  1  0  0  0  0
+ 19 21  2  0  0  0  0
+ 19 31  1  0  0  0  0
+ 20 21  1  0  0  0  0
+ 20 32  1  0  0  0  0
+ 21 33  1  0  0  0  0
+ 22 34  1  0  0  0  0
+ 22 35  1  0  0  0  0
+ 22 36  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+10085389
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+460
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+2
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+0
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+2
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADccB4MAAAAAAAAAAAAAAAAAAAAAAAAAAwYMEAAAAAAADBVAAAGgAAAAAADASAmAIyAMAABACIAqBSAAICCAAkIAAIiAFAAMgIIDKAFRSAIQAkwAEIiYeIyPCOwAACAAAQAACAAAQAACAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+2-methoxy-9-phenyl-phenalen-1-one
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+2-methoxy-9-phenyl-1-phenalenone
+
+>  <PUBCHEM_IUPAC_NAME>
+2-methoxy-9-phenylphenalen-1-one
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+2-methoxy-9-phenyl-phenalen-1-one
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+2-methoxy-9-phenyl-phenalen-1-one
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C20H14O2/c1-22-17-12-15-9-5-8-14-10-11-16(13-6-3-2-4-7-13)19(18(14)15)20(17)21/h2-12H,1H3
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+NXRGWQRQXPUQSX-UHFFFAOYSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+5
+
+>  <PUBCHEM_EXACT_MASS>
+286.099
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C20H14O2
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+286.33
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+COC1=CC2=CC=CC3=C2C(=C(C=C3)C4=CC=CC=C4)C1=O
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+COC1=CC2=CC=CC3=C2C(=C(C=C3)C4=CC=CC=C4)C1=O
+
+>  <PUBCHEM_CACTVS_TPSA>
+26.3
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+286.099
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+22
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+1
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+12  17  8
+12  18  8
+14  16  8
+15  16  8
+17  19  8
+18  20  8
+19  21  8
+20  21  8
+3  4  8
+3  5  8
+3  7  8
+4  6  8
+5  14  8
+5  9  8
+6  10  8
+7  15  8
+9  10  8
+
+$$$$

@@ -1,0 +1,153 @@
+8519
+ OpenBabel06101807152D
+
+ 23 22  0  0  1  0  0  0  0  0999 V2000
+    2.0000    2.7064    0.0000 Na  0  3  0  0  0 15  0  0  0  0  0  0
+    3.9701   -2.7064    0.0000 Na  0  3  0  0  0 15  0  0  0  0  0  0
+    5.1367    2.4659    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9063    2.2838    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+    4.3928   -1.8001    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+    2.1743    0.7141    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8230   -1.0681    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8733    1.4833    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    5.6145    0.5173    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    3.8998    0.8650    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    4.2418   -0.0747    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    7.2722    0.9744    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0134    0.0085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9935    1.2876    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8192   -0.9810    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8593    0.8634    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6326   -0.1024    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9409    1.4836    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6738   -0.5194    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.8185   -0.5800    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.6074   -0.1693    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8662    0.7967    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4672    1.5630    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  3  8  1  0  0  0  0
+  3  9  1  0  0  0  0
+  4 14  1  0  0  0  0
+  5 15  1  0  0  0  0
+  6 14  2  0  0  0  0
+  7 15  2  0  0  0  0
+  8 10  1  0  0  0  0
+  8 12  1  0  0  0  0
+  8 16  1  0  0  0  0
+  9 11  1  0  0  0  0
+  9 13  1  0  0  0  0
+  9 17  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 10 14  1  0  0  0  0
+ 10 18  1  0  0  0  0
+ 11 15  1  0  0  0  0
+ 11 19  1  0  0  0  0
+ 12 13  1  0  0  0  0
+ 12 22  1  0  0  0  0
+ 12 23  1  0  0  0  0
+ 13 20  1  0  0  0  0
+ 13 21  1  0  0  0  0
+M  CHG  4   1   1   2   1   4  -1   5  -1
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+8519
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+224
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+5
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+0
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+0
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADccBwODAAAAAAAAAAAAAAAAAAASJAAAAwAAAAAAAAAAAAAAAAGgAAAAAADRSggAIACAAABAAIAACQCAAAAAAAAAAAAAEAAAAAABYAAAACAAAFIAAAAAHLyLCOgAAAAAAAAAAAAAIAADAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+disodium;7-oxabicyclo[2.2.1]heptane-2,3-dicarboxylate
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+disodium;7-oxabicyclo[2.2.1]heptane-2,3-dicarboxylate
+
+>  <PUBCHEM_IUPAC_NAME>
+disodium;7-oxabicyclo[2.2.1]heptane-2,3-dicarboxylate
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+disodium;7-oxabicyclo[2.2.1]heptane-2,3-dicarboxylate
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+disodium;7-oxabicyclo[2.2.1]heptane-2,3-dicarboxylate
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C8H10O5.2Na/c9-7(10)5-3-1-2-4(13-3)6(5)8(11)12;;/h3-6H,1-2H2,(H,9,10)(H,11,12);;/q;2*+1/p-2
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+XRHVZWWRFMCBAZ-UHFFFAOYSA-L
+
+>  <PUBCHEM_EXACT_MASS>
+230.017
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C8H8Na2O5
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+230.127
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+C1CC2C(C(C1O2)C(=O)[O-])C(=O)[O-].[Na+].[Na+]
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+C1CC2C(C(C1O2)C(=O)[O-])C(=O)[O-].[Na+].[Na+]
+
+>  <PUBCHEM_CACTVS_TPSA>
+89.5
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+230.017
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+15
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+4
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+3
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+1
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+>  <PUBCHEM_BONDANNOTATIONS>
+10  14  3
+11  15  3
+8  12  3
+9  13  3
+
+$$$$

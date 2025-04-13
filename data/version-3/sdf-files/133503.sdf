@@ -1,0 +1,148 @@
+133503
+ OpenBabel06101807152D
+
+ 22 22  0  0  0  0  0  0  0  0999 V2000
+    2.8660    1.8966    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3660    1.0306    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8660    0.1645    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3660   -2.4335    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3660   -0.7015    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3660   -0.7015    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8660    0.1645    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000   -0.3355    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0000    0.6645    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3660    1.0306    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3660   -0.7015    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8660   -1.5675    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8660   -1.5675    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3894   -0.4431    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2120   -0.9181    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2120    1.2472    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3894    0.7722    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0560   -1.2384    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2834   -1.7796    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9737   -2.1781    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1760    2.4335    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9860   -2.4335    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1 10  1  0  0  0  0
+  1 21  1  0  0  0  0
+  2 10  2  0  0  0  0
+  3 11  2  0  0  0  0
+  4 13  1  0  0  0  0
+  4 22  1  0  0  0  0
+  5 13  2  0  0  0  0
+  6  7  1  0  0  0  0
+  6 11  1  0  0  0  0
+  6 18  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7  9  1  0  0  0  0
+  7 10  1  0  0  0  0
+  8  9  1  0  0  0  0
+  8 14  1  0  0  0  0
+  8 15  1  0  0  0  0
+  9 16  1  0  0  0  0
+  9 17  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 12 13  1  0  0  0  0
+ 12 19  1  0  0  0  0
+ 12 20  1  0  0  0  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>
+133503
+
+>  <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+>  <PUBCHEM_CACTVS_COMPLEXITY>
+268
+
+>  <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+5
+
+>  <PUBCHEM_CACTVS_HBOND_DONOR>
+3
+
+>  <PUBCHEM_CACTVS_ROTATABLE_BOND>
+4
+
+>  <PUBCHEM_CACTVS_SUBSKEYS>
+AAADccBiOAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAHgAQCAAADIiBgAAACALAAgAIAAGQGAAAAAAAAAAAAAGAAAACABwIACAEQAAGNACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+>  <PUBCHEM_IUPAC_OPENEYE_NAME>
+1-[(2-carboxyacetyl)amino]cyclopropanecarboxylic acid
+
+>  <PUBCHEM_IUPAC_CAS_NAME>
+1-[(2-carboxy-1-oxoethyl)amino]-1-cyclopropanecarboxylic acid
+
+>  <PUBCHEM_IUPAC_NAME>
+1-[(2-carboxyacetyl)amino]cyclopropane-1-carboxylic acid
+
+>  <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+1-[(3-oxidanyl-3-oxidanylidene-propanoyl)amino]cyclopropane-1-carboxylic acid
+
+>  <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+1-[(2-carboxyacetyl)amino]cyclopropanecarboxylic acid
+
+>  <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C7H9NO5/c9-4(3-5(10)11)8-7(1-2-7)6(12)13/h1-3H2,(H,8,9)(H,10,11)(H,12,13)
+
+>  <PUBCHEM_IUPAC_INCHIKEY>
+QXOQNNAWFUXKMH-UHFFFAOYSA-N
+
+>  <PUBCHEM_XLOGP3_AA>
+-0.3
+
+>  <PUBCHEM_EXACT_MASS>
+187.048
+
+>  <PUBCHEM_MOLECULAR_FORMULA>
+C7H9NO5
+
+>  <PUBCHEM_MOLECULAR_WEIGHT>
+187.151
+
+>  <PUBCHEM_OPENEYE_CAN_SMILES>
+C1CC1(C(=O)O)NC(=O)CC(=O)O
+
+>  <PUBCHEM_OPENEYE_ISO_SMILES>
+C1CC1(C(=O)O)NC(=O)CC(=O)O
+
+>  <PUBCHEM_CACTVS_TPSA>
+104
+
+>  <PUBCHEM_MONOISOTOPIC_WEIGHT>
+187.048
+
+>  <PUBCHEM_TOTAL_CHARGE>
+0
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>
+13
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>
+2
+
+>  <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+$$$$

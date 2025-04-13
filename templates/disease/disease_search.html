@@ -1,0 +1,25 @@
+<div id="search_disease" class="pb-4">
+	
+	<!-- <h5 class="container">
+		<hr />
+		<span>
+			<img src="static/images/search_logo.png" class="d-inline-block align-top" style="max-width: 1em; max-height: 1em;">
+		</span>
+		<strong>&nbsp;&nbsp;Disease Search</strong>
+		<hr />
+	</h5>	 -->
+	<h5>Disease Search</h5>
+	
+	<form class="input-group mb-3 search-form">
+		<div class="input-group">
+			<input href="#disease-results" table="disease" type="text" name="query" class="form-control query-field" id="disease_query"
+ placeholder="Enter any disease's name or category (e.g. Diabetes Mellitus)">
+			<div class="input-group-btn input-group-append">
+				<input role="button" class="btn btn-primary" type="submit" type="submit">Search</input>
+			</div>
+		</div>
+	</form>
+	<a href="{{url_for('view_all', type='disease')}}" target="_blank">Browse All Disease</a>
+
+	<div id="disease-results"></div>
+</div>
